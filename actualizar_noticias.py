@@ -2,7 +2,9 @@
 """Descarga el feed de noticias y lo guarda como noticias.json (lo ejecuta GitHub Actions)."""
 import datetime
 import email.utils
+import html
 import json
+import re
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -13,6 +15,36 @@ FEEDS = [
 ]
 MAX_NOTICIAS = 10
 SALIDA = "noticias.json"
+# API de WordPress: de aquí salen la imagen destacada y el extracto de cada noticia
+API = ("https://www.aenverde.es/wp-json/wp/v2/posts"
+       "?per_page={n}&_embed=wp:featuredmedia")
+# Frase que aenverde.es pone al principio de cada extracto
+PREFIJO_WHATSAPP = re.compile(r"^\s*\(\s*Tambi.n nos puedes seguir por[^)]*\)\s*", re.I)
+
+
+def limpiar(valor):
+    """Quita etiquetas HTML, entidades, espacios raros y el prefijo de WhatsApp."""
+    s = re.sub(r"<[^>]+>", " ", valor or "")
+    s = html.unescape(s).replace("\xa0", " ")
+    s = re.sub(r"\s+", " ", s).strip()
+    return PREFIJO_WHATSAPP.sub("", s).strip()
+
+
+def id_post(guid):
+    m = re.search(r"[?&]p=(\d+)", guid or "")
+    return int(m.group(1)) if m else None
+
+
+def imagen_destacada(post):
+    try:
+        media = post["_embedded"]["wp:featuredmedia"][0]
+        tamanos = media.get("media_details", {}).get("sizes", {})
+        for nombre in ("medium_large", "large", "full"):
+            if nombre in tamanos and tamanos[nombre].get("source_url"):
+                return tamanos[nombre]["source_url"]
+        return media.get("source_url", "")
+    except (KeyError, IndexError, TypeError):
+        return ""
 
 
 def local(etiqueta):
@@ -60,11 +92,16 @@ def leer(datos):
         if enlace_el is not None:
             enlace = (enlace_el.get("href") or enlace_el.text or "").strip()
         d = fecha(texto(n, "pubDate", "published", "updated", "date"))
+        guid = texto(n, "guid", "id")
         salida.append({
-            "id": texto(n, "guid", "id") or enlace or titulo,
+            "id": guid or enlace or titulo,
             "titulo": titulo,
             "fecha": d.isoformat() if d else "",
             "enlace": enlace,
+            "imagen": "",
+            # Extracto del feed; si la API responde, se sustituye por el suyo
+            "descripcion": limpiar(texto(n, "description", "summary")),
+            "_post": id_post(guid),
         })
     salida.sort(key=lambda x: x["fecha"], reverse=True)
     return salida[:MAX_NOTICIAS]
@@ -80,11 +117,30 @@ def descargar(url):
         return r.read()
 
 
+def enriquecer(items):
+    """Añade imagen y descripción desde la API de WordPress. Si falla, no pasa nada."""
+    try:
+        posts = json.loads(descargar(API.format(n=max(MAX_NOTICIAS * 2, 20))))
+        por_id = {p["id"]: p for p in posts}
+    except Exception as e:
+        print(f"Aviso: sin imágenes (API no disponible): {e}", file=sys.stderr)
+        por_id = {}
+    for it in items:
+        p = por_id.get(it.pop("_post", None))
+        if not p:
+            continue
+        it["imagen"] = imagen_destacada(p)
+        extracto = limpiar(p.get("excerpt", {}).get("rendered", ""))
+        if extracto:
+            it["descripcion"] = extracto
+    return items
+
+
 def main():
     ultimo_error = None
     for url in FEEDS:
         try:
-            items = leer(descargar(url))
+            items = enriquecer(leer(descargar(url)))
             if items:
                 with open(SALIDA, "w", encoding="utf-8") as f:
                     json.dump({"items": items}, f, ensure_ascii=False, indent=1)
