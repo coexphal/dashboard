@@ -17,6 +17,8 @@
     --blanco:#ffffff;
     --apagado:#4b5d61;
     --linea:#d3e0e2;
+    --apple-trazo:rgba(60,60,67,.29);   /* separator */
+    --apple-etiqueta-2:rgba(60,60,67,.72); /* secondary label */
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{height:100%;background:#000;overflow:hidden}
@@ -36,50 +38,47 @@
     display:flex;align-items:center;justify-content:center;padding:0 48px;
     position:relative;
   }
+
+  .logo::after{content:"";position:absolute;left:48px;right:48px;bottom:0;height:1px;background:var(--linea)}
   .logo svg{width:100%;height:auto;max-height:84px}
 
-  /* Reloj */
-  .reloj{background:var(--blanco);color:var(--tinta);text-align:center;padding:26px 0 22px;flex:none;position:relative}
-  .logo::after,.reloj::after{content:"";position:absolute;left:48px;right:48px;bottom:0;height:1px;background:var(--linea)}
-  .hora{font-size:140px;line-height:1;font-weight:400;letter-spacing:-3px;font-variant-numeric:proportional-nums lining-nums}
-  .fecha{margin-top:8px;font-size:26px;color:var(--apagado);text-transform:capitalize}
 
-  /* Clima */
-  .clima{flex:none;display:flex;flex-direction:column;padding:20px 48px 16px}
-  .ciudad{display:flex;justify-content:space-between;align-items:baseline;font-size:22px;color:var(--apagado)}
-  .ciudad b{color:var(--tinta);font-weight:700;font-size:26px}
-  .ciudad .mx{color:var(--carmesi);font-weight:600}
-  .ciudad .mn{color:var(--turquesa);font-weight:600}
-  .actual{display:flex;align-items:center;justify-content:space-between;margin-top:6px}
-  .temp{font-size:96px;font-weight:300;line-height:1;letter-spacing:-4px}
-  .temp sup{font-size:38px;color:var(--carmesi);font-weight:400;letter-spacing:0;vertical-align:top;position:relative;top:10px}
-  .icono{font-size:80px;line-height:1}
-  .desc{font-size:24px;margin-top:2px}
-  .datos{display:flex;gap:22px;margin-top:6px;font-size:19px;color:var(--apagado)}
-  .datos b{color:var(--tinta);font-weight:700}
-
-  .horas{display:flex;justify-content:space-between;margin-top:14px;padding:10px 0;border-top:2px solid var(--linea);border-bottom:2px solid var(--linea)}
-  .h{flex:1;text-align:center;font-size:18px;color:var(--apagado)}
-  .h .e{font-size:28px;margin:3px 0}
-  .h .t{font-size:22px;color:var(--tinta);font-weight:700}
+  /* Reloj (izquierda) y tiempo (derecha) en dos marcos */
+  .bloque{flex:none;display:flex;gap:16px;padding:20px 48px}
+  /* Estilo Apple: solo trazo, sin relleno, esquinas continuas (squircle) */
+  .marco{border:1px solid var(--linea);box-shadow:0 1px 2px rgba(34,30,32,.04),0 6px 16px -6px rgba(0,159,174,.18),0 12px 28px -12px rgba(34,30,32,.12);border-radius:28px;corner-shape:squircle;display:flex;flex-direction:column;justify-content:center}
+  .marco-reloj{flex:1;min-width:0;align-items:center;padding:18px 14px}
+  .hora{font-size:104px;line-height:1;font-weight:400;letter-spacing:-2px;white-space:nowrap;font-variant-numeric:proportional-nums lining-nums}
+  .fecha{margin-top:6px;font-size:20px;color:var(--apple-etiqueta-2);text-transform:capitalize;white-space:nowrap}
+  .marco-tiempo{flex:none;width:230px;align-items:center;text-align:center;padding:18px 14px;gap:2px}
+  .ciudad{font-size:16px;letter-spacing:1px;color:var(--apple-etiqueta-2);font-weight:600}
+  .t-fila{display:flex;align-items:center;gap:8px}
+  .icono{font-size:44px;line-height:1}
+  .temp{font-size:56px;font-weight:400;line-height:1;letter-spacing:-2px}
+  .temp sup{font-size:24px;color:var(--carmesi);font-weight:400;letter-spacing:0;vertical-align:top;position:relative;top:6px}
+  .desc{font-size:20px;font-weight:600;line-height:1.2}
+  .rango{font-size:18px;white-space:nowrap}
+  .rango .mn{color:var(--turquesa);font-weight:600}
+  .rango .mx{color:var(--carmesi);font-weight:600}
 
   /* Noticias */
-  .noticias{flex:1;min-height:0;position:relative;padding:14px 48px 18px;display:flex;flex-direction:column;overflow:hidden}
+  .noticias{flex:1;min-height:0;position:relative;padding:20px 48px 26px;display:flex;flex-direction:column;overflow:hidden}
   .nt-cab{display:flex;justify-content:space-between;align-items:center}
-  .nt-cab b{color:var(--tinta);font-size:26px;font-weight:700}
-  .nt-cab svg{height:64px;width:auto;flex:none}
-  .carrusel{flex:1;min-height:0;display:flex;overflow:hidden;margin-top:4px;touch-action:pan-y;user-select:none}
+  .noticias::before{content:"";position:absolute;left:48px;right:48px;top:0;height:1px;background:var(--linea)}
+  .nt-cab b{color:var(--tinta);font-size:30px;font-weight:700}
+  .nt-cab svg{height:80px;width:auto;flex:none}
+  .carrusel{flex:1;min-height:0;display:flex;overflow:hidden;margin-top:8px;touch-action:pan-y;user-select:none}
   .pista{display:flex;flex:none;width:100%;transition:transform .7s cubic-bezier(.65,0,.35,1)}
-  .nt{flex:none;width:100%;display:flex;flex-direction:column;justify-content:center;gap:8px}
-  .nt time{font-size:20px;color:var(--turquesa);font-weight:600;line-height:1.2}
-  .nt span{font-size:28px;line-height:1.25;font-weight:600;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
-  .puntos{display:flex;justify-content:center;align-items:center;gap:8px;height:14px;margin-top:4px}
+  .nt{flex:none;width:100%;display:flex;flex-direction:column;justify-content:center;gap:10px}
+  .nt time{font-size:24px;color:var(--turquesa);font-weight:600;line-height:1.2}
+  .nt span{font-size:40px;line-height:1.25;font-weight:600;display:-webkit-box;-webkit-line-clamp:7;-webkit-box-orient:vertical;overflow:hidden}
+  .puntos{display:flex;justify-content:center;align-items:center;gap:8px;height:14px;margin-top:8px}
   .puntos i{width:8px;height:8px;border-radius:4px;background:var(--linea);transition:width .3s,background .3s}
   .puntos i.act{width:22px;background:var(--turquesa)}
   @media (prefers-reduced-motion:reduce){.pista,.puntos i{transition:none}}
   .nt.nueva time{color:var(--carmesi)}
-  .nt.nueva span::before{content:"Nueva";display:inline-block;margin-right:8px;padding:0 7px;border-radius:9px;background:var(--carmesi);color:#fff;font-size:13px;font-weight:600;vertical-align:2px}
-  .nt-vacio{flex:none;width:100%;font-size:20px;color:var(--apagado);align-self:center}
+  .nt.nueva span::before{content:"Nueva";display:inline-block;margin-right:8px;padding:0 10px;border-radius:12px;background:var(--carmesi);color:#fff;font-size:16px;font-weight:600;vertical-align:4px}
+  .nt-vacio{flex:none;width:100%;font-size:24px;color:var(--apagado);align-self:center}
 
   .estado{position:absolute;right:48px;bottom:10px;font-size:14px;color:var(--apagado)}
 </style>
@@ -148,26 +147,20 @@
 </svg>
   </header>
 
-  <section class="reloj">
-    <div class="hora"><span id="hm">--:--</span></div>
-    <div class="fecha" id="fecha"></div>
-  </section>
-
-  <section class="clima">
-    <div class="ciudad"><b>Almería</b><span id="rango"></span></div>
-    <div class="actual">
-      <div>
-        <div class="temp"><span id="temp">--</span><sup>°C</sup></div>
-        <div class="desc" id="desc">Cargando clima…</div>
+  <section class="bloque">
+    <div class="marco marco-reloj">
+      <div class="hora"><span id="hm">--:--</span></div>
+      <div class="fecha" id="fecha"></div>
+    </div>
+    <div class="marco marco-tiempo">
+      <div class="ciudad">ALMERÍA</div>
+      <div class="t-fila">
+        <span class="icono" id="icono"></span>
+        <span class="temp"><span id="temp">--</span><sup>°C</sup></span>
       </div>
-      <div class="icono" id="icono"></div>
+      <div class="desc" id="desc">Cargando clima…</div>
+      <div class="rango" id="rango"></div>
     </div>
-    <div class="datos">
-      <span>Sensación <b id="sens">--</b>°</span>
-      <span>Humedad <b id="hum">--</b>%</span>
-      <span>Viento <b id="vie">--</b> km/h</span>
-    </div>
-    <div class="horas" id="horas"></div>
   </section>
 
   <section class="noticias">
@@ -236,10 +229,9 @@ const w = c => WMO[c] || ['🌡️','—'];
 
 async function clima(){
   const url = `https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}`
-    + `&current=temperature_2m,apparent_temperature,relative_humidity_2m,wind_speed_10m,weather_code`
-    + `&hourly=temperature_2m,weather_code`
-    + `&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max`
-    + `&timezone=${encodeURIComponent(TZ)}&forecast_days=4`;
+    + `&current=temperature_2m,weather_code`
+    + `&daily=temperature_2m_max,temperature_2m_min`
+    + `&timezone=${encodeURIComponent(TZ)}&forecast_days=1`;
   try{
     const r = await fetch(url); if(!r.ok) throw new Error(r.status);
     const d = await r.json(), c = d.current;
@@ -247,21 +239,8 @@ async function clima(){
     document.getElementById('temp').textContent = Math.round(c.temperature_2m);
     document.getElementById('desc').textContent = txt;
     document.getElementById('icono').textContent = ico;
-    document.getElementById('sens').textContent = Math.round(c.apparent_temperature);
-    document.getElementById('hum').textContent = Math.round(c.relative_humidity_2m);
-    document.getElementById('vie').textContent = Math.round(c.wind_speed_10m);
     document.getElementById('rango').innerHTML =
       `<span class="mn">Mín ${Math.round(d.daily.temperature_2m_min[0])}°</span> · <span class="mx">Máx ${Math.round(d.daily.temperature_2m_max[0])}°</span>`;
-
-    // Próximas 6 franjas (cada 2 h)
-    let i = d.hourly.time.findIndex(t => t > c.time); if(i<0) i = 0;
-    let h = '';
-    for(let k=0;k<6;k++){
-      const j = i + k*2; if(j>=d.hourly.time.length) break;
-      h += `<div class="h"><div>${d.hourly.time[j].slice(11,16)}</div><div class="e">${w(d.hourly.weather_code[j])[0]}</div><div class="t">${Math.round(d.hourly.temperature_2m[j])}°</div></div>`;
-    }
-    document.getElementById('horas').innerHTML = h;
-
     document.getElementById('estado').textContent = '';
   }catch(e){
     document.getElementById('desc').textContent = 'Sin datos del clima';
