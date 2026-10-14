@@ -1,11 +1,35 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117054",
+   "titulo": "Junta de Andalucía y UAL abordan la seguridad laboral en la agricultura",
+   "fecha": "2026-10-14T12:08:45+00:00",
+   "enlace": "https://www.aenverde.es/empleo-y-universidad-seguridad-laboral-en-la-agricultura/?utm_source=rss&utm_medium=rss&utm_campaign=empleo-y-universidad-seguridad-laboral-en-la-agricultura",
+   "imagen": "imagenes/117054.jpg",
+   "descripcion": "El delegado territorial de Empleo, Empresa y Trabajo Autónomo y de Inteligencia Artificial, Desarrollo Digital y Administración Pública, Amós García Hueso, ha participado hoy en la jornada ‘Evaluación digital del riesgo por exposición a fitosanitarios en invernaderos’, organizada por el Laboratorio-Observatorio de Condiciones de Trabajo en el…"
+  },
+  {
+   "id": "https://www.aenverde.es/?p=117040",
+   "titulo": "Cajamar se incorpora a Empresas Mágicas de España",
+   "fecha": "2026-10-14T11:50:07+00:00",
+   "enlace": "https://www.aenverde.es/cajamar-empresa-magica/?utm_source=rss&utm_medium=rss&utm_campaign=cajamar-empresa-magica",
+   "imagen": "imagenes/117040.jpg",
+   "descripcion": "Cajamar se ha incorporado a Empresas Mágicas de España como Empresa Mágica Tractora dentro del sector financiero. La adhesión conecta la experiencia de la entidad en el medio rural y la economía productiva con el enfoque de desarrollo territorial de la iniciativa. En la firma han participado…"
+  },
+  {
+   "id": "https://www.aenverde.es/?p=117027",
+   "titulo": "Loli Aguilera: “La formación y el compromiso son claves en un sector que evoluciona muy rápido“",
+   "fecha": "2026-10-14T11:44:07+00:00",
+   "enlace": "https://www.aenverde.es/loli-aguilera-formacion-compromiso-sector-ornamental-semilleros-laimund/?utm_source=rss&utm_medium=rss&utm_campaign=loli-aguilera-formacion-compromiso-sector-ornamental-semilleros-laimund",
+   "imagen": "imagenes/117027.png",
+   "descripcion": "En la edición impresa de AenVerde de este mes entrevistamos a Loli Aguilera, responsable de Administración de Semilleros Laimund y una figura clave en el organigrama de la empresa. Un perfil marcado por la humildad, la profesionalidad y la constancia, que ha contribuido al crecimiento de la…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117036",
    "titulo": "COAG Almería reclama al Gobierno medidas excepcionales frente al Parvispinus",
    "fecha": "2026-10-14T10:18:54+00:00",
    "enlace": "https://www.aenverde.es/coag-almeria-reclama-autorizaciones-excepcionales-frente-al-parvispinus/?utm_source=rss&utm_medium=rss&utm_campaign=coag-almeria-reclama-autorizaciones-excepcionales-frente-al-parvispinus",
-   "imagen": "https://www.aenverde.es/wp-content/uploads/2026/10/reunion-coag-subdelegacion-768x523.jpg",
+   "imagen": "imagenes/117036.jpg",
    "descripcion": "La Coordinadora de Organizaciones de Agricultores y Ganaderos (COAG) de Almería se ha reunido con el subdelegado del Gobierno en Almería, José María Martín Fernández, para trasladarle los principales problemas que amenazan la actividad agraria provincial. Durante el encuentro, la organización ha reclamado una respuesta urgente ante…"
   },
   {
@@ -13,7 +37,7 @@
    "titulo": "El Cupón de la ONCE del 15 de octubre celebra el Día Internacional de las Mujeres Rurales",
    "fecha": "2026-10-14T08:56:37+00:00",
    "enlace": "https://www.aenverde.es/el-cupon-de-la-once-homenajea-a-la-mujer-rural/?utm_source=rss&utm_medium=rss&utm_campaign=el-cupon-de-la-once-homenajea-a-la-mujer-rural",
-   "imagen": "https://www.aenverde.es/wp-content/uploads/2026/10/once-fademur-mujer-rural-768x523.jpg",
+   "imagen": "imagenes/117015.jpg",
    "descripcion": "El Día Internacional de las Mujeres Rurales es el motivo del Cupón Diario de la ONCE del jueves 15 de octubre. Con ello, cinco millones de cupones apoyan la imagen y la labor que realizan las mujeres que viven y trabajan en zonas rurales, muchas con discapacidad,…"
   },
   {
@@ -21,7 +45,7 @@
    "titulo": "Una plataforma bioinformática para predecir la sostenibilidad, ecotoxicidad y seguridad de materiales de envase",
    "fecha": "2026-10-14T08:27:40+00:00",
    "enlace": "https://www.aenverde.es/itene-elabora-una-plataforma-bioinformatica-con-inteligencia-artificial-para-mejorar-envases-alimentarios/?utm_source=rss&utm_medium=rss&utm_campaign=itene-elabora-una-plataforma-bioinformatica-con-inteligencia-artificial-para-mejorar-envases-alimentarios",
-   "imagen": "https://www.aenverde.es/wp-content/uploads/2026/10/envases-itene-768x523.jpg",
+   "imagen": "imagenes/117028.jpg",
    "descripcion": "El centro tecnológico ITENE está desarrollando, en el marco del proyecto BIOMATICA, una plataforma bioinformática basada en Inteligencia Artificial, modelos bioinformáticos y modelización computacional para predecir el comportamiento de materiales y recubrimientos de envase. El objetivo es anticipar sus opciones de fin de vida, su impacto ambiental…"
   },
   {
@@ -29,7 +53,7 @@
    "titulo": "Cuatro empresas andaluzas y una murciana reciben los Premios Alimentos de España 2026",
    "fecha": "2026-10-14T07:59:09+00:00",
    "enlace": "https://www.aenverde.es/cuatro-empresas-andaluzas-y-una-murciana-reciben-los-premios-alimentos-de-espana-2026/?utm_source=rss&utm_medium=rss&utm_campaign=cuatro-empresas-andaluzas-y-una-murciana-reciben-los-premios-alimentos-de-espana-2026",
-   "imagen": "https://www.aenverde.es/wp-content/uploads/2026/10/premios-alimentos-espana-768x523.png",
+   "imagen": "imagenes/117022.png",
    "descripcion": "Durante la gala de los Premios Alimentos de España 2026, el ministro Luis Planas ha recalcado que España es una potencia mundial agroalimentaria, posición que ha logrado gracias al encomiable esfuerzo de los profesionales del sector. Planas ha felicitado a los 28 galardonados, por su compromiso con…"
   },
   {
@@ -37,7 +61,7 @@
    "titulo": "El presidente de la Junta de Andalucía pide en Bruselas no recentralizar la PAC ni los fondos de cohesión",
    "fecha": "2026-10-14T07:08:19+00:00",
    "enlace": "https://www.aenverde.es/moreno-reclama-no-recentralizar-la-pac-ni-los-fondos-de-cohesion/?utm_source=rss&utm_medium=rss&utm_campaign=moreno-reclama-no-recentralizar-la-pac-ni-los-fondos-de-cohesion",
-   "imagen": "https://www.aenverde.es/wp-content/uploads/2026/10/Moreno-Bonilla-en-el-Comite-Europeo-de-las-Regiones-768x523.jpg",
+   "imagen": "imagenes/117017.jpg",
    "descripcion": "El presidente de la Junta de Andalucía, Juanma Moreno, ha advertido en Bruselas que una recentralización de la Política Agraria Común (PAC) y de los fondos de cohesión por parte del Gobierno central de España sería «catastrófica» para Andalucía. «Defendemos que las políticas prioritarias como la agricultura,…"
   },
   {
@@ -45,7 +69,7 @@
    "titulo": "Cómo preparar una campaña hortofrutícola con control biológico",
    "fecha": "2026-10-13T15:51:49+00:00",
    "enlace": "https://www.aenverde.es/como-preparar-una-campana-hortofruticola-con-control-biologico/?utm_source=rss&utm_medium=rss&utm_campaign=como-preparar-una-campana-hortofruticola-con-control-biologico",
-   "imagen": "https://www.aenverde.es/wp-content/uploads/2026/10/haciendas-bio-control-biologico-768x523.jpg",
+   "imagen": "imagenes/116953.jpg",
    "descripcion": "Manuel Torres y Jairo Fernández, uno como encargado y otro como técnico gestor, están a cargo de más de 30 hectáreas de invernadero en biodinámica en Berja. El control biológico es su estrategia, desde que colocan las placas cromáticas hasta que sale el último kilo de la…"
   },
   {
@@ -53,32 +77,8 @@
    "titulo": "Debate sobre el futuro de la alimentación escolar ecológica en Barcelona",
    "fecha": "2026-10-13T15:40:06+00:00",
    "enlace": "https://www.aenverde.es/debate-sobre-el-futuro-de-la-alimentacion-escolar-ecologica-en-barcelona/?utm_source=rss&utm_medium=rss&utm_campaign=debate-sobre-el-futuro-de-la-alimentacion-escolar-ecologica-en-barcelona",
-   "imagen": "https://www.aenverde.es/wp-content/uploads/2026/10/congreso-alimentacion-escolar-768x523.png",
+   "imagen": "imagenes/117003.png",
    "descripcion": "La Xarxa Agroecològica de Menjadors Escolars de Catalunya (XAMEC) celebra diez años de trayectoria convocando, junto con la certificación Ecolocal, el I Congreso ‘Hacia unos comedores escolares ecológicos, de proximidad y saludables’, el próximo 12 de noviembre en el Colegio de Médicos de Barcelona. El encuentro pretende…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=116999",
-   "titulo": "40.000 kilómetros cuadrados de suelo en España con alto riesgo de erosión",
-   "fecha": "2026-10-13T15:04:10+00:00",
-   "enlace": "https://www.aenverde.es/peligro-de-erosion-del-suelo-en-espana/?utm_source=rss&utm_medium=rss&utm_campaign=peligro-de-erosion-del-suelo-en-espana",
-   "imagen": "https://www.aenverde.es/wp-content/uploads/2026/10/erosion-suelo-768x523.jpg",
-   "descripcion": "Según un nuevo análisis de Save Soil basado en datos oficiales de Eurostat, un área de España 25 % más grande que Cataluña corre el riesgo de sufrir una grave erosión del suelo provocada por el agua. Eurostat estima que unos 40.000 km² de territorio español están…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=116989",
-   "titulo": "La fertirrigación, factor clave en los cultivos de invernadero sin suelo",
-   "fecha": "2026-10-13T11:41:05+00:00",
-   "enlace": "https://www.aenverde.es/la-fertirrigacion-factor-clave-en-los-cultivos-de-invernadero-sin-suelo/?utm_source=rss&utm_medium=rss&utm_campaign=la-fertirrigacion-factor-clave-en-los-cultivos-de-invernadero-sin-suelo",
-   "imagen": "https://www.aenverde.es/wp-content/uploads/2026/10/invernadero-sin-suelo-768x523.jpg",
-   "descripcion": "Mayor productividad, facilidad de gestión y procesos de mantenimiento más eficientes: son varias las razones por las que cada vez más explotaciones agrícolas están optando por el cultivo sin suelo en invernadero. En este tipo de cultivos, las tecnologías de riego por goteo y fertirrigación son fundamentales…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=116986",
-   "titulo": "Almería busca nuevas oportunidades para la biomasa hortícola",
-   "fecha": "2026-10-13T11:29:06+00:00",
-   "enlace": "https://www.aenverde.es/almeria-busca-nuevas-oportunidades-para-la-biomasa-horticola/?utm_source=rss&utm_medium=rss&utm_campaign=almeria-busca-nuevas-oportunidades-para-la-biomasa-horticola",
-   "imagen": "https://www.aenverde.es/wp-content/uploads/2026/10/residuos-biomasa-768x523.png",
-   "descripcion": "La transformación de la biomasa y de los subproductos hortícolas en nuevos recursos y oportunidades de negocio será el eje de una jornada que reunirá el próximo 16 de octubre en Almería a empresas del sector hortofrutícola, gestores de biomasa, ingenierías, proveedores de tecnología, administraciones públicas y…"
   }
  ]
 }
