@@ -19,5 +19,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add noticias.json
+          git add -A noticias.json imagenes
           git diff --cached --quiet || (git commit -m "Actualizar noticias" && git push)
