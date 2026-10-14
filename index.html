@@ -39,7 +39,7 @@
     position:relative;
   }
 
-  .logo::after{content:"";position:absolute;left:48px;right:48px;bottom:0;height:1px;background:var(--linea)}
+  .logo::after{content:"";position:absolute;left:48px;right:48px;bottom:0;height:0;border-top:1px solid var(--linea)}
   .logo svg{width:100%;height:auto;max-height:84px}
 
 
@@ -64,7 +64,7 @@
   /* Noticias */
   .noticias{flex:1;min-height:0;position:relative;padding:20px 48px 26px;display:flex;flex-direction:column;overflow:hidden}
   .nt-cab{display:flex;justify-content:space-between;align-items:center}
-  .noticias::before{content:"";position:absolute;left:48px;right:48px;top:0;height:1px;background:var(--linea)}
+  .noticias::before{content:"";position:absolute;left:48px;right:48px;top:0;height:0;border-top:1px solid var(--linea)}
   .nt-cab b{color:var(--tinta);font-size:30px;font-weight:700}
   .nt-cab svg{height:80px;width:auto;flex:none}
   .carrusel{flex:1;min-height:0;display:flex;overflow:hidden;margin-top:8px;touch-action:pan-y;user-select:none}
@@ -73,7 +73,7 @@
   .nt time{font-size:24px;color:var(--turquesa);font-weight:600;line-height:1.2}
   .nt span{font-size:32px;line-height:1.25;font-weight:600;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
   .nt.solo span{font-size:40px;-webkit-line-clamp:7}
-  .nt img{flex:1 1 0;min-height:0;max-height:260px;width:100%;object-fit:cover;border-radius:20px;corner-shape:squircle;border:1px solid var(--linea);background:var(--linea);display:block}
+  .nt img{flex:none;height:250px;width:100%;object-fit:cover;border-radius:20px;corner-shape:squircle;border:1px solid var(--linea);background:var(--linea);display:block}
   .nt p{font-size:20px;line-height:1.4;color:var(--apple-etiqueta-2);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
   .puntos{display:flex;justify-content:center;align-items:center;gap:8px;height:14px;margin-top:8px}
   .puntos i{width:8px;height:8px;border-radius:4px;background:var(--linea);transition:width .3s,background .3s}
@@ -204,7 +204,11 @@ const TZ = 'Europe/Madrid';
 // Ajuste a la ventana manteniendo 688x1032
 function ajustar(){
   const s = Math.min(innerWidth/688, innerHeight/1032);
-  document.getElementById('stage').style.transform = `scale(${s})`;
+  const st = document.getElementById('stage');
+  // zoom escala el layout y reparte los bordes en píxeles enteros (líneas nítidas e iguales);
+  // transform solo como alternativa si el navegador no soporta zoom
+  if(window.CSS && CSS.supports && CSS.supports('zoom','1')){ st.style.zoom = s; st.style.transform = ''; }
+  else { st.style.zoom = ''; st.style.transform = `scale(${s})`; }
 }
 addEventListener('resize', ajustar); ajustar();
 
@@ -305,7 +309,7 @@ function crearNoticia(x, nueva){
   d.append(t);
   if(x.imagen){
     const im = document.createElement('img');
-    im.src = x.imagen; im.alt = ''; im.loading = 'eager';
+    im.referrerPolicy = 'no-referrer'; im.alt = ''; im.src = x.imagen;
     im.addEventListener('error', () => im.remove());   // si la imagen falla, se oculta
     d.append(im);
   }

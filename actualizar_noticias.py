@@ -4,6 +4,7 @@ import datetime
 import email.utils
 import html
 import json
+import os
 import re
 import sys
 import urllib.request
@@ -15,6 +16,7 @@ FEEDS = [
 ]
 MAX_NOTICIAS = 10
 SALIDA = "noticias.json"
+CARPETA_IMG = "imagenes"   # copia local de las fotos: se sirven desde el mismo sitio que el dashboard
 # API de WordPress: de aquí salen la imagen destacada y el extracto de cada noticia
 API = ("https://www.aenverde.es/wp-json/wp/v2/posts"
        "?per_page={n}&_embed=wp:featuredmedia")
@@ -117,6 +119,37 @@ def descargar(url):
         return r.read()
 
 
+def guardar_imagen(url, post_id):
+    """Descarga la foto a imagenes/ y devuelve su ruta relativa; si falla, devuelve la URL original."""
+    if not url:
+        return ""
+    ext = os.path.splitext(url.split("?")[0])[1].lower()
+    if ext not in (".jpg", ".jpeg", ".png", ".webp", ".gif"):
+        ext = ".jpg"
+    ruta = f"{CARPETA_IMG}/{post_id}{ext}"
+    try:
+        if not os.path.exists(ruta):
+            os.makedirs(CARPETA_IMG, exist_ok=True)
+            datos = descargar(url)
+            if len(datos) < 500:
+                raise ValueError("imagen vacía")
+            with open(ruta, "wb") as f:
+                f.write(datos)
+        return ruta
+    except Exception as e:
+        print(f"Aviso: no se pudo copiar {url}: {e}", file=sys.stderr)
+        return url
+
+
+def limpiar_imagenes(items):
+    """Borra de imagenes/ las fotos de noticias que ya no están en la lista."""
+    usadas = {os.path.basename(i["imagen"]) for i in items if i["imagen"].startswith(CARPETA_IMG + "/")}
+    if os.path.isdir(CARPETA_IMG):
+        for nombre in os.listdir(CARPETA_IMG):
+            if nombre not in usadas:
+                os.remove(os.path.join(CARPETA_IMG, nombre))
+
+
 def enriquecer(items):
     """Añade imagen y descripción desde la API de WordPress. Si falla, no pasa nada."""
     try:
@@ -126,10 +159,11 @@ def enriquecer(items):
         print(f"Aviso: sin imágenes (API no disponible): {e}", file=sys.stderr)
         por_id = {}
     for it in items:
-        p = por_id.get(it.pop("_post", None))
+        pid = it.pop("_post", None)
+        p = por_id.get(pid)
         if not p:
             continue
-        it["imagen"] = imagen_destacada(p)
+        it["imagen"] = guardar_imagen(imagen_destacada(p), pid)
         extracto = limpiar(p.get("excerpt", {}).get("rendered", ""))
         if extracto:
             it["descripcion"] = extracto
@@ -142,6 +176,7 @@ def main():
         try:
             items = enriquecer(leer(descargar(url)))
             if items:
+                limpiar_imagenes(items)
                 with open(SALIDA, "w", encoding="utf-8") as f:
                     json.dump({"items": items}, f, ensure_ascii=False, indent=1)
                     f.write("\n")
