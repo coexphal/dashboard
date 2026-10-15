@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117175",
+   "titulo": "Los cultivos de invernadero en octubre",
+   "fecha": "2026-10-15T15:31:05+00:00",
+   "enlace": "https://www.aenverde.es/los-cultivos-de-invernadero-en-octubre/?utm_source=rss&utm_medium=rss&utm_campaign=los-cultivos-de-invernadero-en-octubre",
+   "imagen": "imagenes/117175.png",
+   "descripcion": "El servicio de Información Agraria y Pesquera de la Junta de Andalucía ha publicado el estado fenológico de los cultivos de invernadero en la semana del 5 al 11 de octubre. Almería En Almería, en la zona de Campo de Níjar sigue el desarrollo normal de las…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117171",
    "titulo": "La Junta de Andalucía supera las 900 inspecciones para el control del Trips parvispinus e impone cerca de 300 sanciones por incumplimientos",
    "fecha": "2026-10-15T14:32:50+00:00",
@@ -71,14 +79,6 @@
    "enlace": "https://www.aenverde.es/almeria-sigue-lider-en-calidad-y-seguridad-alimentaria-en-la-union-europea/?utm_source=rss&utm_medium=rss&utm_campaign=almeria-sigue-lider-en-calidad-y-seguridad-alimentaria-en-la-union-europea",
    "imagen": "imagenes/117096.jpg",
    "descripcion": "Un año más, con motivo de la finalización de la campaña, Labcolor ha elaborado un estudio donde se pretende abordar el nivel de seguridad alimentaria existente en los productos del campo almeriense y en la huerta de Murcia. Desde el laboratorio Labcolor y desde la asociación COEXPHAL…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117107",
-   "titulo": "COEXPHAL reclama medidas extraordinarias y de obligado cumplimiento para frenar el avance de Thrips parvispinus en Almería y Granada",
-   "fecha": "2026-10-15T08:12:30+00:00",
-   "enlace": "https://www.aenverde.es/coexphal-reclama-medidas-de-obligado-cumplimiento-para-frenar-al-parvispinus-en-almeria-y-granada/?utm_source=rss&utm_medium=rss&utm_campaign=coexphal-reclama-medidas-de-obligado-cumplimiento-para-frenar-al-parvispinus-en-almeria-y-granada",
-   "imagen": "imagenes/117107.jpg",
-   "descripcion": "La Junta Directiva de COEXPHAL, en su reunión del 13 de octubre, ha aprobado por unanimidad trasladar a la Consejería de Agricultura de la Junta de Andalucía una batería de medidas urgentes para hacer frente a la expansión de Thrips parvispinus, una plaga que sigue provocando graves…"
   }
  ]
 }
