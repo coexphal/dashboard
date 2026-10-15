@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117146",
+   "titulo": "El sector de la alcachofa reclama estabilidad para afrontar la nueva campaña",
+   "fecha": "2026-10-15T10:28:54+00:00",
+   "enlace": "https://www.aenverde.es/la-alcachofa-de-espana-se-luce-en-fruit-attraction/?utm_source=rss&utm_medium=rss&utm_campaign=la-alcachofa-de-espana-se-luce-en-fruit-attraction",
+   "imagen": "imagenes/117146.jpg",
+   "descripcion": "El sector de la alcachofa en España encara las próximas semanas una nueva campaña marcada por la necesidad de consolidar la producción, mejorar la rentabilidad de las explotaciones y garantizar la continuidad del cultivo. Así lo ha trasladado Alcachofa de España tras su participación en Fruit Attraction…"
+  },
+  {
+   "id": "https://www.aenverde.es/?p=117145",
+   "titulo": "Jornada sobre el cultivo de maracuyá en IFAPA La Mojonera",
+   "fecha": "2026-10-15T10:28:07+00:00",
+   "enlace": "https://www.aenverde.es/jornada-sobre-el-cultivo-de-maracuya-en-ifapa-la-mojonera/?utm_source=rss&utm_medium=rss&utm_campaign=jornada-sobre-el-cultivo-de-maracuya-en-ifapa-la-mojonera",
+   "imagen": "imagenes/117145.jpg",
+   "descripcion": "El Centro IFAPA La Mojonera acogerá mañana viernes, 16 de octubre, una Jornada Técnica de Subtropicales dedicada al cultivo de maracuyá, una iniciativa que pretende acercar al sector agrícola los conocimientos y experiencias desarrollados en torno a este cultivo y analizar su potencial como alternativa para diversificar…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117139",
    "titulo": "Los sírfidos polinizadores, premio a la innovación en Fruit Attraction",
    "fecha": "2026-10-15T09:56:59+00:00",
@@ -63,22 +79,6 @@
    "enlace": "https://www.aenverde.es/dia-mundial-de-las-mujeres-rurales/?utm_source=rss&utm_medium=rss&utm_campaign=dia-mundial-de-las-mujeres-rurales",
    "imagen": "imagenes/117095.jpg",
    "descripcion": "Este 15 de octubre, la federación que presido vuelve a conmemorar el Día Mundial de las Mujeres Rurales. AMFAR fue pionera en España, allá por 1997, en la celebración de esta fecha, que permite visibilizar y reivindicar la realidad de las mujeres rurales españolas. A lo largo…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117089",
-   "titulo": "Curso online: Auditor interno de sistemas de gestión",
-   "fecha": "2026-10-15T06:44:17+00:00",
-   "enlace": "https://www.aenverde.es/curso-online-auditor-interno-de-sistemas-de-gestion-15/?utm_source=rss&utm_medium=rss&utm_campaign=curso-online-auditor-interno-de-sistemas-de-gestion-15",
-   "imagen": "imagenes/117089.png",
-   "descripcion": "El Departamento de Formación de COEXPHAL ha convocado un nuevo curso online de ‘Auditor interno de sistemas de gestión’, que se desarrollará del 4 al 25 de noviembre de 2026. Esta formación es imprescindible para garantizar el cumplimiento y la mejora continua en normas como ISO 9001,…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117084",
-   "titulo": "La patata europea afronta el cambio climático con 86 materias activas menos y solo una nueva",
-   "fecha": "2026-10-14T15:23:44+00:00",
-   "enlace": "https://www.aenverde.es/la-patata-europea-cambio-climatico-86-materias-activas-menos-simposio-europatat/?utm_source=rss&utm_medium=rss&utm_campaign=la-patata-europea-cambio-climatico-86-materias-activas-menos-simposio-europatat",
-   "imagen": "imagenes/117084.png",
-   "descripcion": "El I Simposio Internacional de la Patata, celebrado el 5 de octubre, en Madrid, en el marco de Fruit Attraction 2026, reunió a cerca de 250 profesionales de toda Europa para debatir los principales retos del sector, destacando el cambio climático y la necesidad de fitosanitarios eficaces como dos de los más importantes, así como…"
   }
  ]
 }
