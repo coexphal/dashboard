@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117096",
+   "titulo": "Almería sigue líder en calidad y seguridad alimentaria en la Unión Europea",
+   "fecha": "2026-10-15T08:48:45+00:00",
+   "enlace": "https://www.aenverde.es/almeria-sigue-lider-en-calidad-y-seguridad-alimentaria-en-la-union-europea/?utm_source=rss&utm_medium=rss&utm_campaign=almeria-sigue-lider-en-calidad-y-seguridad-alimentaria-en-la-union-europea",
+   "imagen": "imagenes/117096.jpg",
+   "descripcion": "Un año más, con motivo de la finalización de la campaña, Labcolor ha elaborado un estudio donde se pretende abordar el nivel de seguridad alimentaria existente en los productos del campo almeriense y en la huerta de Murcia. Desde el laboratorio Labcolor y desde la asociación COEXPHAL…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117107",
    "titulo": "COEXPHAL reclama medidas extraordinarias y de obligado cumplimiento para frenar el avance de Thrips parvispinus en Almería y Granada",
    "fecha": "2026-10-15T08:12:30+00:00",
@@ -71,14 +79,6 @@
    "enlace": "https://www.aenverde.es/ayudas-a-industria-agroalimentaria-por-danos-de-borrascas/?utm_source=rss&utm_medium=rss&utm_campaign=ayudas-a-industria-agroalimentaria-por-danos-de-borrascas",
    "imagen": "imagenes/117065.png",
    "descripcion": "El Consejo de Gobierno ha tomado conocimiento de la convocatoria de ayudas directas indemnizatorias de carácter excepcional que se ha abierto en Andalucía para las industrias agroalimentarias afectadas negativamente por las borrascas de finales de 2025 y principios de 2026. La Junta de Andalucía destina 12 millones…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117054",
-   "titulo": "Junta de Andalucía y UAL abordan la seguridad laboral en la agricultura",
-   "fecha": "2026-10-14T12:08:45+00:00",
-   "enlace": "https://www.aenverde.es/empleo-y-universidad-seguridad-laboral-en-la-agricultura/?utm_source=rss&utm_medium=rss&utm_campaign=empleo-y-universidad-seguridad-laboral-en-la-agricultura",
-   "imagen": "imagenes/117054.jpg",
-   "descripcion": "El delegado territorial de Empleo, Empresa y Trabajo Autónomo y de Inteligencia Artificial, Desarrollo Digital y Administración Pública, Amós García Hueso, ha participado hoy en la jornada ‘Evaluación digital del riesgo por exposición a fitosanitarios en invernaderos’, organizada por el Laboratorio-Observatorio de Condiciones de Trabajo en el…"
   }
  ]
 }
