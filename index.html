@@ -72,8 +72,13 @@
   .nt{flex:none;width:100%;display:flex;flex-direction:column;justify-content:center;gap:10px}
   .nt time{font-size:24px;color:var(--turquesa);font-weight:600;line-height:1.2}
   .nt span{font-size:32px;line-height:1.25;font-weight:600;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-  .nt.solo span{font-size:40px;-webkit-line-clamp:7}
-  .nt img{flex:none;height:250px;width:100%;object-fit:cover;border-radius:20px;corner-shape:squircle;border:1px solid var(--linea);background:var(--linea);display:block}
+  .nt.solo span{font-size:40px;-webkit-line-clamp:5}
+  .nt img{flex:none;height:210px;width:100%;object-fit:cover;border-radius:20px;corner-shape:squircle;border:1px solid var(--linea);background:var(--linea);display:block}
+  .nt-pie{display:flex;align-items:flex-end;gap:20px}
+  .nt-txt{flex:1;min-width:0;display:flex;flex-direction:column;gap:8px}
+  .nt-leer{font-size:16px;font-weight:600;color:var(--turquesa);line-height:1.3}
+  .nt-qr{flex:none;width:132px;height:132px;padding:7px;background:#fff;border:1px solid var(--linea);border-radius:16px;corner-shape:squircle}
+  .nt-qr svg{display:block;width:100%;height:100%}
   .nt p{font-size:20px;line-height:1.4;color:var(--apple-etiqueta-2);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
   .puntos{display:flex;justify-content:center;align-items:center;gap:8px;height:14px;margin-top:8px}
   .puntos i{width:8px;height:8px;border-radius:4px;background:var(--linea);transition:width .3s,background .3s}
@@ -197,6 +202,119 @@
 </div>
 
 <script>
+/* Generador de códigos QR (modo byte, corrección M, versiones 1-10). Basado en el algoritmo estándar ISO 18004. */
+const QR = (function(){
+  const ECC = [-1,10,16,26,18,24,16,18,22,22,26];   // palabras de corrección por bloque (nivel M)
+  const NBL = [-1,1,1,1,2,2,4,4,4,5,5];              // número de bloques (nivel M)
+  const bit = (v,i) => ((v >>> i) & 1) !== 0;
+  function mul(x,y){ let z=0; for(let i=7;i>=0;i--){ z=(z<<1)^((z>>>7)*0x11D); z^=((y>>>i)&1)*x; } return z; }
+  function divisor(deg){ const r=new Array(deg).fill(0); r[deg-1]=1; let root=1;
+    for(let i=0;i<deg;i++){ for(let j=0;j<deg;j++){ r[j]=mul(r[j],root); if(j+1<deg) r[j]^=r[j+1]; } root=mul(root,2); } return r; }
+  function remainder(data,div){ const r=div.map(()=>0);
+    for(const b of data){ const f=b^r.shift(); r.push(0); div.forEach((c,i)=>{ r[i]^=mul(c,f); }); } return r; }
+  function rawModules(v){ let r=(16*v+128)*v+64; if(v>=2){ const n=Math.floor(v/7)+2; r-=(25*n-10)*n-55; if(v>=7) r-=36; } return r; }
+  function dataWords(v){ return Math.floor(rawModules(v)/8) - ECC[v]*NBL[v]; }
+
+  function make(text){
+    const bytes = Array.from(new TextEncoder().encode(text));
+    let ver = 1;
+    while(ver<=10 && (4 + (ver<=9?8:16) + bytes.length*8) > dataWords(ver)*8) ver++;
+    if(ver>10) return null;                       // texto demasiado largo
+    const size = ver*4+17;
+    const m = Array.from({length:size},()=>new Array(size).fill(false));
+    const fn = Array.from({length:size},()=>new Array(size).fill(false));
+    const setF = (x,y,d)=>{ m[y][x]=d; fn[y][x]=true; };
+
+    // --- patrones de función ---
+    for(let i=0;i<size;i++){ setF(6,i,i%2===0); setF(i,6,i%2===0); }
+    const finder=(cx,cy)=>{ for(let dy=-4;dy<=4;dy++) for(let dx=-4;dx<=4;dx++){
+      const d=Math.max(Math.abs(dx),Math.abs(dy)), x=cx+dx, y=cy+dy;
+      if(x>=0&&x<size&&y>=0&&y<size) setF(x,y,d!==2&&d!==4); } };
+    finder(3,3); finder(size-4,3); finder(3,size-4);
+    const na = ver===1 ? 0 : Math.floor(ver/7)+2;
+    const pos = [];
+    if(ver>1){ const step=Math.ceil((ver*4+4)/(na*2-2))*2; pos.push(6); for(let p=size-7;pos.length<na;p-=step) pos.splice(1,0,p); }
+    for(let i=0;i<na;i++) for(let j=0;j<na;j++){
+      if((i===0&&j===0)||(i===0&&j===na-1)||(i===na-1&&j===0)) continue;
+      for(let dy=-2;dy<=2;dy++) for(let dx=-2;dx<=2;dx++) setF(pos[i]+dx,pos[j]+dy,Math.max(Math.abs(dx),Math.abs(dy))!==1);
+    }
+    const formato=(mask)=>{
+      const data=(0<<3)|mask; let rem=data;                       // nivel M = 0
+      for(let i=0;i<10;i++) rem=(rem<<1)^((rem>>>9)*0x537);
+      const bits=((data<<10)|rem)^0x5412;
+      for(let i=0;i<=5;i++) setF(8,i,bit(bits,i));
+      setF(8,7,bit(bits,6)); setF(8,8,bit(bits,7)); setF(7,8,bit(bits,8));
+      for(let i=9;i<15;i++) setF(14-i,8,bit(bits,i));
+      for(let i=0;i<8;i++) setF(size-1-i,8,bit(bits,i));
+      for(let i=8;i<15;i++) setF(8,size-15+i,bit(bits,i));
+      setF(8,size-8,true);
+    };
+    formato(0);
+    if(ver>=7){ let rem=ver; for(let i=0;i<12;i++) rem=(rem<<1)^((rem>>>11)*0x1F25);
+      const bits=(ver<<12)|rem;
+      for(let i=0;i<18;i++){ const c=bit(bits,i), a=size-11+i%3, b=Math.floor(i/3); setF(a,b,c); setF(b,a,c); } }
+
+    // --- datos + corrección de errores ---
+    const bb=[]; const push=(v,n)=>{ for(let i=n-1;i>=0;i--) bb.push((v>>>i)&1); };
+    push(4,4); push(bytes.length, ver<=9?8:16); bytes.forEach(b=>push(b,8));
+    const cap=dataWords(ver)*8;
+    push(0,Math.min(4,cap-bb.length)); while(bb.length%8) bb.push(0);
+    const data=[]; for(let i=0;i<bb.length;i+=8){ let v=0; for(let j=0;j<8;j++) v=(v<<1)|bb[i+j]; data.push(v); }
+    for(let pad=0xEC;data.length<dataWords(ver);pad^=0xEC^0x11) data.push(pad);
+
+    const nb=NBL[ver], el=ECC[ver], raw=Math.floor(rawModules(ver)/8);
+    const nShort=nb-raw%nb, shortLen=Math.floor(raw/nb), div=divisor(el), blocks=[];
+    for(let i=0,k=0;i<nb;i++){
+      const dl=shortLen-el+(i<nShort?0:1), dat=data.slice(k,k+dl); k+=dl;
+      const ec=remainder(dat,div); if(i<nShort) dat.push(0); blocks.push(dat.concat(ec));
+    }
+    const all=[];
+    for(let i=0;i<blocks[0].length;i++) blocks.forEach((b,j)=>{ if(i!==shortLen-el||j>=nShort) all.push(b[i]); });
+
+    // --- colocar datos en zigzag ---
+    let idx=0;
+    for(let right=size-1;right>=1;right-=2){
+      if(right===6) right=5;
+      for(let vert=0;vert<size;vert++) for(let j=0;j<2;j++){
+        const x=right-j, up=((right+1)&2)===0, y=up?size-1-vert:vert;
+        if(!fn[y][x] && idx<all.length*8){ m[y][x]=bit(all[idx>>>3],7-(idx&7)); idx++; }
+      }
+    }
+
+    // --- máscara: se elige la de menor penalización ---
+    const cond=[(x,y)=>(x+y)%2===0,(x,y)=>y%2===0,(x,y)=>x%3===0,(x,y)=>(x+y)%3===0,
+      (x,y)=>(Math.floor(x/3)+Math.floor(y/2))%2===0,(x,y)=>x*y%2+x*y%3===0,
+      (x,y)=>(x*y%2+x*y%3)%2===0,(x,y)=>((x+y)%2+x*y%3)%2===0];
+    const aplicar=mk=>{ for(let y=0;y<size;y++) for(let x=0;x<size;x++) if(!fn[y][x]&&cond[mk](x,y)) m[y][x]=!m[y][x]; };
+    const penal=()=>{
+      let p=0;
+      const lineas=[]; for(let i=0;i<size;i++){ lineas.push(m[i].map(Number).join('')); lineas.push(m.map(r=>+r[i]).join('')); }
+      for(const s of lineas){
+        for(const r of s.match(/0+|1+/g)) if(r.length>=5) p+=3+r.length-5;
+        const t='0000'+s+'0000';
+        p+=40*((t.match(/(?=10111010000)/g)||[]).length+(t.match(/(?=00001011101)/g)||[]).length);
+      }
+      for(let y=0;y<size-1;y++) for(let x=0;x<size-1;x++) if(m[y][x]===m[y][x+1]&&m[y][x]===m[y+1][x]&&m[y][x]===m[y+1][x+1]) p+=3;
+      const dark=m.reduce((a,r)=>a+r.filter(Boolean).length,0), tot=size*size;
+      return p+(Math.ceil(Math.abs(dark*20-tot*10)/tot)-1)*10;
+    };
+    let best=0,bp=Infinity;
+    for(let mk=0;mk<8;mk++){ aplicar(mk); formato(mk); const p=penal(); if(p<bp){bp=p;best=mk;} aplicar(mk); }
+    aplicar(best); formato(best);
+    return m;
+  }
+
+  // SVG con el código (sin zona de silencio; la deja el contenedor)
+  function svg(text){
+    const m=make(text); if(!m) return '';
+    const n=m.length; let d='';
+    for(let y=0;y<n;y++){ let x=0; while(x<n){ if(!m[y][x]){x++;continue;} let l=0; while(x+l<n&&m[y][x+l]) l++; d+=`M${x} ${y}h${l}v1h-${l}z`; x+=l; } }
+    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${n} ${n}" shape-rendering="crispEdges"><path d="${d}" fill="#221e20"/></svg>`;
+  }
+  return {make, svg};
+})();
+</script>
+<script>
 const LAT = 36.8381, LON = -2.4597;   // Almería
 const REFRESCO_MIN = 15;              // actualización del clima (minutos)
 const TZ = 'Europe/Madrid';
@@ -314,12 +432,32 @@ function crearNoticia(x, nueva){
     d.append(im);
   }
   d.append(s);
-  if(x.descripcion){
-    const p = document.createElement('p'); p.textContent = x.descripcion;
-    d.append(p);
+  const url = urlQR(x);
+  if(x.descripcion || url){
+    const pie = document.createElement('div'); pie.className = 'nt-pie';
+    const txt = document.createElement('div'); txt.className = 'nt-txt';
+    if(x.descripcion){ const p = document.createElement('p'); p.textContent = x.descripcion; txt.append(p); }
+    if(url){
+      const l = document.createElement('div'); l.className = 'nt-leer'; l.textContent = 'Escanea el código para leer la noticia completa';
+      txt.append(l);
+    }
+    pie.append(txt);
+    if(url){
+      const q = document.createElement('div'); q.className = 'nt-qr';
+      q.innerHTML = QR.svg(url);    // SVG generado por nuestro propio código a partir de la URL
+      pie.append(q);
+    }
+    d.append(pie);
   }
   if(!x.imagen && !x.descripcion) d.classList.add('solo');
   return d;
+}
+// Enlace al que apunta el QR. El corto (?p=ID, es el guid de WordPress y redirige a la noticia) da un
+// código con menos cuadros, más grande y fácil de leer en una pantalla LED. Poner false para usar el enlace completo.
+const QR_ENLACE_CORTO = true;
+function urlQR(x){
+  if(QR_ENLACE_CORTO && /^https?:\/\/[^\s?#]+\/\?p=\d+$/.test(x.id)) return x.id;
+  try{ const u = new URL(x.enlace); u.search = ''; u.hash = ''; return u.href; }catch(e){ return ''; }
 }
 function mensaje(texto){
   if(total) return;   // si ya hay noticias en pantalla, se conservan
@@ -331,7 +469,7 @@ async function noticias(){
   try{
     const r = await fetch(NOTICIAS_JSON + '?t=' + Date.now(), {cache:'no-store'});
     if(!r.ok) throw new Error('HTTP ' + r.status);
-    lista = (await r.json()).items.map(x => ({id:x.id, titulo:x.titulo, fecha:new Date(x.fecha), imagen:x.imagen || '', descripcion:x.descripcion || ''}));
+    lista = (await r.json()).items.map(x => ({id:x.id, titulo:x.titulo, fecha:new Date(x.fecha), imagen:x.imagen || '', descripcion:x.descripcion || '', enlace:x.enlace || ''}));
   }catch(e){ return mensaje('No se han podido cargar las noticias.'); }
   if(!lista.length) return mensaje('Todavía no hay noticias.');
 
