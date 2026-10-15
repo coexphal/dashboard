@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117153",
+   "titulo": "Expo AgriTech 2026 mostrará las tecnologías que revolucionan el campo",
+   "fecha": "2026-10-15T11:28:57+00:00",
+   "enlace": "https://www.aenverde.es/las-tecnologias-que-revolucionan-el-campo-en-expo-agritech-2026/?utm_source=rss&utm_medium=rss&utm_campaign=las-tecnologias-que-revolucionan-el-campo-en-expo-agritech-2026",
+   "imagen": "imagenes/117153.jpg",
+   "descripcion": "La incorporación de sensores, sistemas de análisis de datos y soluciones de agricultura de precisión están cambiando la forma de gestionar las explotaciones agrícolas para conocer con mayor detalle el estado de los cultivos, anticipar posibles incidencias y ajustar el uso de recursos como el agua o…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117146",
    "titulo": "El sector de la alcachofa reclama estabilidad para afrontar la nueva campaña",
    "fecha": "2026-10-15T10:28:54+00:00",
@@ -71,14 +79,6 @@
    "enlace": "https://www.aenverde.es/empresas-impulsan-el-uso-de-biochar-en-olivar-superintensivo/?utm_source=rss&utm_medium=rss&utm_campaign=empresas-impulsan-el-uso-de-biochar-en-olivar-superintensivo",
    "imagen": "imagenes/117099.jpg",
    "descripcion": "Carboliva y la cooperativa Arbequisur han puesto en marcha una iniciativa dirigida a impulsar el uso del biochar en nuevas plantaciones de olivar superintensivo y a generar experiencia sobre su aplicación en condiciones reales de cultivo, con el objetivo de promover una agricultura más sostenible, eficiente y…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117095",
-   "titulo": "15 de octubre, Día Mundial de las Mujeres Rurales",
-   "fecha": "2026-10-15T07:09:58+00:00",
-   "enlace": "https://www.aenverde.es/dia-mundial-de-las-mujeres-rurales/?utm_source=rss&utm_medium=rss&utm_campaign=dia-mundial-de-las-mujeres-rurales",
-   "imagen": "imagenes/117095.jpg",
-   "descripcion": "Este 15 de octubre, la federación que presido vuelve a conmemorar el Día Mundial de las Mujeres Rurales. AMFAR fue pionera en España, allá por 1997, en la celebración de esta fecha, que permite visibilizar y reivindicar la realidad de las mujeres rurales españolas. A lo largo…"
   }
  ]
 }
