@@ -70,6 +70,9 @@
   .carrusel{flex:1;min-height:0;display:flex;overflow:hidden;margin-top:8px;touch-action:pan-y;user-select:none}
   .pista{display:flex;flex:none;width:100%;transition:transform .7s cubic-bezier(.65,0,.35,1)}
   .nt{flex:none;width:100%;display:flex;flex-direction:column;justify-content:center;gap:10px}
+  .nt > *{flex:none}
+  .nt.c1 p{-webkit-line-clamp:2}
+  .nt.c2 p{display:none}
   .nt time{font-size:24px;color:var(--turquesa);font-weight:600;line-height:1.2}
   .nt span{font-size:32px;line-height:1.25;font-weight:600;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
   .nt.solo span{font-size:40px;-webkit-line-clamp:5}
@@ -438,7 +441,7 @@ function crearNoticia(x, nueva){
     const txt = document.createElement('div'); txt.className = 'nt-txt';
     if(x.descripcion){ const p = document.createElement('p'); p.textContent = x.descripcion; txt.append(p); }
     if(url){
-      const l = document.createElement('div'); l.className = 'nt-leer'; l.textContent = 'Escanea el código para leer la noticia completa';
+      const l = document.createElement('div'); l.className = 'nt-leer'; l.textContent = 'Escanea para leer la noticia completa';
       txt.append(l);
     }
     pie.append(txt);
@@ -459,6 +462,24 @@ function urlQR(x){
   if(QR_ENLACE_CORTO && /^https?:\/\/[^\s?#]+\/\?p=\d+$/.test(x.id)) return x.id;
   try{ const u = new URL(x.enlace); u.search = ''; u.hash = ''; return u.href; }catch(e){ return ''; }
 }
+// Si el contenido de una noticia no cabe, primero se reduce la imagen, luego la descripción; nunca se recorta el titular
+function ajustarNoticias(){
+  for(const n of pista.querySelectorAll('.nt')){
+    n.classList.remove('c1','c2');
+    const im = n.querySelector('img');
+    if(im) im.style.height = '';
+    const sobra = () => n.scrollHeight > n.clientHeight + 1;
+    if(im && sobra()){
+      let h = im.offsetHeight;
+      while(h > 90 && sobra()){ h -= 6; im.style.height = h + 'px'; }
+    }
+    if(sobra()) n.classList.add('c1');
+    if(sobra()) n.classList.add('c2');
+  }
+}
+if(document.fonts && document.fonts.ready) document.fonts.ready.then(() => ajustarNoticias());
+// El alto disponible cambia si el bloque del clima crece (descripción más larga) o al cargar la fuente
+if(typeof ResizeObserver !== 'undefined') new ResizeObserver(() => ajustarNoticias()).observe(document.getElementById('carrusel'));
 function mensaje(texto){
   if(total) return;   // si ya hay noticias en pantalla, se conservan
   pista.replaceChildren(Object.assign(document.createElement('div'), {className:'nt-vacio', textContent:texto}));
@@ -480,6 +501,7 @@ async function noticias(){
   const nodos = lista.map(x => crearNoticia(x, vistas && !vistas.has(x.id)));
   if(total > 1) nodos.push(crearNoticia(lista[0], vistas && !vistas.has(lista[0].id)));   // duplicado final para el bucle
   pista.replaceChildren(...nodos);
+  ajustarNoticias();
   puntos.replaceChildren(...lista.map(() => document.createElement('i')));
   mover(Math.min(pos % total, total - 1), false);
   programar();
