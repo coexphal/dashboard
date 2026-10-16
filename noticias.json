@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117180",
+   "titulo": "La exportación de flores y plantas crece un 7% hasta julio",
+   "fecha": "2026-10-16T08:17:42+00:00",
+   "enlace": "https://www.aenverde.es/la-exportacion-de-flores-y-plantas-crece-un-7-hasta-julio/?utm_source=rss&utm_medium=rss&utm_campaign=la-exportacion-de-flores-y-plantas-crece-un-7-hasta-julio",
+   "imagen": "imagenes/117180.png",
+   "descripcion": "El comercio exterior español de flores y plantas vivas mantuvo una evolución creciente en los siete primeros meses de 2026, tanto en exportación como en importación. Las ventas al exterior pasaron de 485,2 millones de euros entre enero y julio de 2025 a 520,4 millones en el…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117175",
    "titulo": "Los cultivos de invernadero en octubre",
    "fecha": "2026-10-15T15:31:05+00:00",
@@ -71,14 +79,6 @@
    "enlace": "https://www.aenverde.es/marruecos-lidera-la-importacion-hortofruticola-espanola/?utm_source=rss&utm_medium=rss&utm_campaign=marruecos-lidera-la-importacion-hortofruticola-espanola",
    "imagen": "imagenes/117125.png",
    "descripcion": "Los países extracomunitarios suministraron el 55% del volumen y concentraron el 72% del valor de las importaciones españolas de frutas y hortalizas frescas en los siete primeros meses de 2026. Marruecos se mantuvo como primer proveedor en valor, con compras por importe de 982 millones de euros,…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117096",
-   "titulo": "Almería sigue líder en calidad y seguridad alimentaria en la Unión Europea",
-   "fecha": "2026-10-15T08:48:45+00:00",
-   "enlace": "https://www.aenverde.es/almeria-sigue-lider-en-calidad-y-seguridad-alimentaria-en-la-union-europea/?utm_source=rss&utm_medium=rss&utm_campaign=almeria-sigue-lider-en-calidad-y-seguridad-alimentaria-en-la-union-europea",
-   "imagen": "imagenes/117096.jpg",
-   "descripcion": "Un año más, con motivo de la finalización de la campaña, Labcolor ha elaborado un estudio donde se pretende abordar el nivel de seguridad alimentaria existente en los productos del campo almeriense y en la huerta de Murcia. Desde el laboratorio Labcolor y desde la asociación COEXPHAL…"
   }
  ]
 }
