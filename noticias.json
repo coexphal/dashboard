@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117204",
+   "titulo": "El Ministerio anuncia 2.691 millones de euros en pagos anticipados de las ayudas directas de la PAC",
+   "fecha": "2026-10-16T10:12:29+00:00",
+   "enlace": "https://www.aenverde.es/2691-millones-de-euros-en-pagos-anticipados-de-la-pac/?utm_source=rss&utm_medium=rss&utm_campaign=2691-millones-de-euros-en-pagos-anticipados-de-la-pac",
+   "imagen": "imagenes/117204.jpg",
+   "descripcion": "El Ministerio de Agricultura, Pesca y Alimentación, a través del Fondo Español de Garantía Agraria (FEAGA) adelanta a partir de hoy -y hasta el 30 de noviembre- 2.691 millones de euros a las comunidades autónomas para que realicen el pago de los anticipos de las ayudas directas…"
+  },
+  {
+   "id": "https://www.aenverde.es/?p=117193",
+   "titulo": "El Congreso Gestión Sostenible del Suelo 2026 se celebra esta semana en Valencia",
+   "fecha": "2026-10-16T09:59:44+00:00",
+   "enlace": "https://www.aenverde.es/congreso-de-gestion-sostenible-del-suelo/?utm_source=rss&utm_medium=rss&utm_campaign=congreso-de-gestion-sostenible-del-suelo",
+   "imagen": "imagenes/117193.jpg",
+   "descripcion": "Valencia será el próximo 20 de octubre el punto de encuentro para analizar los principales retos de la gestión sostenible del suelo agrícola. El Salón de Actos del edificio 3P de la Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural (ETSIAMN) de la Universitat Politècnica…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117189",
    "titulo": "Campaña de Intercitruspara combatir la desinformación sobre el zumo de naranja",
    "fecha": "2026-10-16T09:37:53+00:00",
@@ -14,7 +30,7 @@
    "fecha": "2026-10-16T09:08:26+00:00",
    "enlace": "https://www.aenverde.es/maria-angeles-gutierrez-resiyou-ayuda-a-tomar-decisiones-con-mayor-seguridad-antes-de-la-cosecha/?utm_source=rss&utm_medium=rss&utm_campaign=maria-angeles-gutierrez-resiyou-ayuda-a-tomar-decisiones-con-mayor-seguridad-antes-de-la-cosecha",
    "imagen": "imagenes/117184.jpg",
-   "descripcion": "María Ángeles Gutiérrez es la consultora de COEXPHAL especializada en la plataforma digital ResiYou (desarrollada por Bayer) que ofrece soporte y asesoramiento técnico a las empresas y agricultores asociados con el propósito de impulsar la digitalización y la sostenibilidad en el sector hortofrutícola del sureste español. Para quienes…"
+   "descripcion": "María Ángeles Gutiérrez es la consultora de COEXPHAL especializada en la plataforma digital ResiYou (desarrollada por Bayer) que ofrece soporte y asesoramiento técnico a las empresas y agricultores asociados con el propósito de impulsar la digitalización y la sostenibilidad en el sector hortofrutícola del sureste español. Para…"
   },
   {
    "id": "https://www.aenverde.es/?p=117180",
@@ -63,22 +79,6 @@
    "enlace": "https://www.aenverde.es/la-alcachofa-de-espana-se-luce-en-fruit-attraction/?utm_source=rss&utm_medium=rss&utm_campaign=la-alcachofa-de-espana-se-luce-en-fruit-attraction",
    "imagen": "imagenes/117146.jpg",
    "descripcion": "El sector de la alcachofa en España encara las próximas semanas una nueva campaña marcada por la necesidad de consolidar la producción, mejorar la rentabilidad de las explotaciones y garantizar la continuidad del cultivo. Así lo ha trasladado Alcachofa de España tras su participación en Fruit Attraction…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117145",
-   "titulo": "Jornada sobre el cultivo de maracuyá en IFAPA La Mojonera",
-   "fecha": "2026-10-15T10:28:07+00:00",
-   "enlace": "https://www.aenverde.es/jornada-sobre-el-cultivo-de-maracuya-en-ifapa-la-mojonera/?utm_source=rss&utm_medium=rss&utm_campaign=jornada-sobre-el-cultivo-de-maracuya-en-ifapa-la-mojonera",
-   "imagen": "imagenes/117145.jpg",
-   "descripcion": "El Centro IFAPA La Mojonera acogerá mañana viernes, 16 de octubre, una Jornada Técnica de Subtropicales dedicada al cultivo de maracuyá, una iniciativa que pretende acercar al sector agrícola los conocimientos y experiencias desarrollados en torno a este cultivo y analizar su potencial como alternativa para diversificar…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117139",
-   "titulo": "Los sírfidos polinizadores, premio a la innovación en Fruit Attraction",
-   "fecha": "2026-10-15T09:56:59+00:00",
-   "enlace": "https://www.aenverde.es/polifly-se-alza-con-uno-de-los-innovation-hub-awards-de-fruit-attraction/?utm_source=rss&utm_medium=rss&utm_campaign=polifly-se-alza-con-uno-de-los-innovation-hub-awards-de-fruit-attraction",
-   "imagen": "imagenes/117139.jpg",
-   "descripcion": "Polyfly ha recibido el primer premio en la categoría de industria de frutas y hortalizas de los Innovation Hub Awards de Fruit Attraction 2026 por su proyecto Polyfly: Sírfidos Polinizadores. Los galardones se entregaron el pasado 8 de octubre, última jornada de la feria, después de que…"
   }
  ]
 }
