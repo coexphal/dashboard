@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117286",
+   "titulo": "‘Sabores Almería’ presenta sus productos en SIAL París",
+   "fecha": "2026-10-19T14:30:10+00:00",
+   "enlace": "https://www.aenverde.es/sabores-almeria-en-el-sial-paris/?utm_source=rss&utm_medium=rss&utm_campaign=sabores-almeria-en-el-sial-paris",
+   "imagen": "imagenes/117286.png",
+   "descripcion": "‘Sabores Almería’ regresa a la nueva edición de SIAL París, Francia, una de las ferias gastronómicas de mayor repercusión, tamaño e influencia de cuantas se celebran en el mundo. Nueve empresas de la marca gourmet de la Diputación Provincial de Almería exhiben sus productos en un stand…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117281",
    "titulo": "Semilleros Forum convoca un encuentro profesional en El Ejido sobre sanidad vegetal",
    "fecha": "2026-10-19T12:11:37+00:00",
@@ -71,14 +79,6 @@
    "enlace": "https://www.aenverde.es/el-nuevo-pasaporte-para-competir/?utm_source=rss&utm_medium=rss&utm_campaign=el-nuevo-pasaporte-para-competir",
    "imagen": "imagenes/117229.jpg",
    "descripcion": "La sostenibilidad ya no es solo una cuestión de imagen corporativa. Para las empresas agroalimentarias de Almería se está convirtiendo en un factor decisivo para mantener clientes, acceder a financiación y reforzar su competitividad en los mercados nacionales e internacionales. Con este escenario de fondo, la ‘Guía práctica para la…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117207",
-   "titulo": "Bioline Iberia: La innovación también está en la forma de llevar los auxiliares al cultivo",
-   "fecha": "2026-10-16T11:00:11+00:00",
-   "enlace": "https://www.aenverde.es/bioline-iberia-la-innovacion-tambien-esta-en-la-forma-de-llevar-los-auxiliares-al-cultivo/?utm_source=rss&utm_medium=rss&utm_campaign=bioline-iberia-la-innovacion-tambien-esta-en-la-forma-de-llevar-los-auxiliares-al-cultivo",
-   "imagen": "imagenes/117207.jpg",
-   "descripcion": "La naturaleza aporta los organismos; la tecnología, la forma de hacerlos funcionar mejor. Esta es la idea que resume la nueva etapa de Bioline Iberia, que ha renovado su identidad corporativa bajo el lema ‘Powered by nature. Designed to perform’. Una declaración de intenciones con la que…"
   }
  ]
 }
