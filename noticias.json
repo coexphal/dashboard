@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117322",
+   "titulo": "El campo buscará en Expo AgriTech vías para ganar rentabilidad y competitividad",
+   "fecha": "2026-10-20T09:10:24+00:00",
+   "enlace": "https://www.aenverde.es/las-calves-para-la-rentabilidad-del-campo-en-expo-agritech/?utm_source=rss&utm_medium=rss&utm_campaign=las-calves-para-la-rentabilidad-del-campo-en-expo-agritech",
+   "imagen": "imagenes/117322.jpg",
+   "descripcion": "El aumento de los costes de producción, la incertidumbre de los mercados internacionales, las nuevas demandas de los consumidores y la falta de relevo generacional están llevando a los agricultores a replantear la manera de gestionar sus explotaciones. Ante este escenario, mejorar la rentabilidad, diversificar las fuentes…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117315",
    "titulo": "FEPEX se une a 5 al Día",
    "fecha": "2026-10-20T08:17:40+00:00",
@@ -71,14 +79,6 @@
    "enlace": "https://www.aenverde.es/la-comision-europea-propone-una-mayor-flexibilidad-en-el-uso-de-purines-y-restos-agricolas/?utm_source=rss&utm_medium=rss&utm_campaign=la-comision-europea-propone-una-mayor-flexibilidad-en-el-uso-de-purines-y-restos-agricolas",
    "imagen": "imagenes/117277.jpg",
    "descripcion": "La Comisión Europea ha puesto en marcha una consulta pública para recabar opiniones sobre un borrador de propuesta destinado a ayudar a los agricultores a reducir costes y a depender menos de los fertilizantes químicos. La modificación específica propuesta de la Directiva sobre nitratos otorgaría a los…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117249",
-   "titulo": "El 65% del Gran Consumo identifica las tensiones geopolíticas y comerciales como su principal riesgo",
-   "fecha": "2026-10-19T08:45:45+00:00",
-   "enlace": "https://www.aenverde.es/el-65-del-gran-consumo-identifica-las-tensiones-geopoliticas-y-comerciales-como-su-principal-riesgo/?utm_source=rss&utm_medium=rss&utm_campaign=el-65-del-gran-consumo-identifica-las-tensiones-geopoliticas-y-comerciales-como-su-principal-riesgo",
-   "imagen": "imagenes/117249.png",
-   "descripcion": "La Asociación de Empresas del Gran Consumo, AECOC, ha recogido las inquietudes y visión del sector sobre el contexto actual en ‘La Voz del Gran Consumo‘, un informe elaborado a partir de una encuesta de opinión en la que han participado 300 empresas del sector de todo…"
   }
  ]
 }
