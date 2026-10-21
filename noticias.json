@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117396",
+   "titulo": "El Parlamento Europeo propone reforzar el apoyo a la agricultura en el presupuesto de la UE para 2027",
+   "fecha": "2026-10-21T15:52:44+00:00",
+   "enlace": "https://www.aenverde.es/el-parlamento-europeo-propone-reforzar-el-apoyo-a-la-agricultura-en-el-presupuesto-de-la-ue-para-2027/?utm_source=rss&utm_medium=rss&utm_campaign=el-parlamento-europeo-propone-reforzar-el-apoyo-a-la-agricultura-en-el-presupuesto-de-la-ue-para-2027",
+   "imagen": "imagenes/117396.jpg",
+   "descripcion": "El Parlamento Europeo ha aprobado su posición sobre el presupuesto de la Unión Europea para 2027 con una propuesta de refuerzo de los recursos destinados a la agricultura, especialmente para los sectores de frutas y hortalizas, aceite de oliva, promoción agroalimentaria, programas escolares y relevo generacional. La…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117391",
    "titulo": "El Consejo Europeo apuesta por simplificar normas y reforzar la seguridad alimentaria",
    "fecha": "2026-10-21T15:25:11+00:00",
@@ -71,14 +79,6 @@
    "enlace": "https://www.aenverde.es/j-huete-vuelve-a-japon-con-una-invernadero-de-gran-escala/?utm_source=rss&utm_medium=rss&utm_campaign=j-huete-vuelve-a-japon-con-una-invernadero-de-gran-escala",
    "imagen": "imagenes/117354.jpg",
    "descripcion": "La tecnología desarrollada en la Región de Murcia volverá a viajar a miles de kilómetros para formar parte de una nueva infraestructura agrícola internacional. J. Huete Greenhouses desarrollará y fabricará un nuevo proyecto de invernadero de gran escala en Japón para cultivo hortícola intensivo. Uno de los…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117351",
-   "titulo": "Estabilidad en la exportación de frutas y hortalizas españolas hasta agosto",
-   "fecha": "2026-10-21T07:55:10+00:00",
-   "enlace": "https://www.aenverde.es/exportacion-de-frutas-y-hortalizas-espanolas-hasta-agosto/?utm_source=rss&utm_medium=rss&utm_campaign=exportacion-de-frutas-y-hortalizas-espanolas-hasta-agosto",
-   "imagen": "imagenes/117351.png",
-   "descripcion": "La exportación española de frutas y hortalizas frescas se situó en 8,2 millones de toneladas entre enero y agosto de 2026, lo que supone una práctica estabilidad respecto al mismo periodo del año anterior, con un ligero descenso del 0,2%. La evolución positiva de las frutas, cuyo…"
   }
  ]
 }
