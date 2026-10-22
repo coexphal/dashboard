@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117418",
+   "titulo": "Infoagro Exhibition conectará en Almería tecnología, negocio y agricultura intensiva",
+   "fecha": "2026-10-22T09:43:19+00:00",
+   "enlace": "https://www.aenverde.es/infoagro-exhibition-conectara-en-almeria-tecnologia-negocio-y-agricultura-intensiva/?utm_source=rss&utm_medium=rss&utm_campaign=infoagro-exhibition-conectara-en-almeria-tecnologia-negocio-y-agricultura-intensiva",
+   "imagen": "imagenes/117418.jpg",
+   "descripcion": "Almería es referente mundial de la agricultura invernada dedicada a cultivos hortícolas desde hace más de medio siglo. El espíritu de esfuerzo y superación de sus agricultores y de las empresas que los apoyan cada día en su actividad productiva ha convertido un desierto en un vergel…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117412",
    "titulo": "FEPEX alerta del aumento de las importaciones de tomate y pimiento con crecimientos del 5% y el 18% en volumen",
    "fecha": "2026-10-22T08:39:24+00:00",
@@ -71,14 +79,6 @@
    "enlace": "https://www.aenverde.es/los-cultivos-de-invernadero-a-mediados-de-octubre-5/?utm_source=rss&utm_medium=rss&utm_campaign=los-cultivos-de-invernadero-a-mediados-de-octubre-5",
    "imagen": "imagenes/117369.png",
    "descripcion": "Información Agraria y Pesquera de la Junta de Andalucía ha publicado el último estado fenológico de los cultivos de invernadero en la región, monitoreados en la semana del 12 al 18 de octubre. Tomates En Almería, en la zona de Campo de Níjar se ha iniciado la…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117365",
-   "titulo": "Agroseguro recuerda que los daños provocados por la DANA ‘Adam’ están cubiertos por el sistema de seguros agrarios",
-   "fecha": "2026-10-21T10:16:44+00:00",
-   "enlace": "https://www.aenverde.es/agroseguros-advierte-que-los-danos-de-la-dana-adam-estan-cubiertos/?utm_source=rss&utm_medium=rss&utm_campaign=agroseguros-advierte-que-los-danos-de-la-dana-adam-estan-cubiertos",
-   "imagen": "imagenes/117365.jpg",
-   "descripcion": "La estimación de daños en producciones agrícolas por el paso de la DANA ‘Adam’ podría superar las 7.000 hectáreas agrícolas aseguradas. Aunque aún es pronto para conocer con exactitud el impacto económico que haya podido ocasionar esta DANA en producciones agrícolas, dadas las zonas de mayor incidencia,…"
   }
  ]
 }
