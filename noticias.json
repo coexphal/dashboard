@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117412",
+   "titulo": "FEPEX alerta del aumento de las importaciones de tomate y pimiento con crecimientos del 5% y el 18% en volumen",
+   "fecha": "2026-10-22T08:39:24+00:00",
+   "enlace": "https://www.aenverde.es/fepex-alerta-del-aumento-de-las-importaciones-de-tomate-y-pimiento-con-crecimientos-del-5-y-el-18-en-volumen/?utm_source=rss&utm_medium=rss&utm_campaign=fepex-alerta-del-aumento-de-las-importaciones-de-tomate-y-pimiento-con-crecimientos-del-5-y-el-18-en-volumen",
+   "imagen": "imagenes/117412.jpg",
+   "descripcion": "FEPEX alerta de la tendencia creciente de las importaciones hortofrutícolas y destaca especialmente el avance de las compras de tomate y pimiento, dos producciones estratégicas para el sector español. Entre enero y agosto de 2026, las importaciones de tomate aumentaron un 5,3% en volumen y un 16,5%…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117407",
    "titulo": "Manzanares estrena el primer Día de la Calabaza en España",
    "fecha": "2026-10-22T07:22:38+00:00",
@@ -71,14 +79,6 @@
    "enlace": "https://www.aenverde.es/agroseguros-advierte-que-los-danos-de-la-dana-adam-estan-cubiertos/?utm_source=rss&utm_medium=rss&utm_campaign=agroseguros-advierte-que-los-danos-de-la-dana-adam-estan-cubiertos",
    "imagen": "imagenes/117365.jpg",
    "descripcion": "La estimación de daños en producciones agrícolas por el paso de la DANA ‘Adam’ podría superar las 7.000 hectáreas agrícolas aseguradas. Aunque aún es pronto para conocer con exactitud el impacto económico que haya podido ocasionar esta DANA en producciones agrícolas, dadas las zonas de mayor incidencia,…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117238",
-   "titulo": "Unidad empresarial, científica y social para demandar avances urgentes que garanticen el agua de riego en la Vega del Andarax",
-   "fecha": "2026-10-21T09:31:53+00:00",
-   "enlace": "https://www.aenverde.es/union-en-almeria-para-garantizar-el-riego-en-la-vega-del-andarax/?utm_source=rss&utm_medium=rss&utm_campaign=union-en-almeria-para-garantizar-el-riego-en-la-vega-del-andarax",
-   "imagen": "imagenes/117238.jpg",
-   "descripcion": "ASEMPAL, la Cámara de Comercio de Almería, COEXPHAL y la Universidad de Almería han celebrado una reunión de trabajo en la sede de la entidad cameral junto a representantes de comunidades de regantes, agricultores, entidades empresariales, expertos y miembros de la sociedad civil, para analizar la situación hídrica…"
   }
  ]
 }
