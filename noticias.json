@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117407",
+   "titulo": "Manzanares estrena el primer Día de la Calabaza en España",
+   "fecha": "2026-10-22T07:22:38+00:00",
+   "enlace": "https://www.aenverde.es/manzanares-estrena-el-primer-dia-de-la-calabaza-en-espana/?utm_source=rss&utm_medium=rss&utm_campaign=manzanares-estrena-el-primer-dia-de-la-calabaza-en-espana",
+   "imagen": "imagenes/117407.jpg",
+   "descripcion": "En La Mancha, la calabaza es mucho más que una hortaliza, es un cultivo que genera actividad económica, sostiene el trabajo de los productores y contribuye a fijar población en el medio rural. Para reivindicar su importancia y acercarla a la ciudadanía, Manzanares acogerá el próximo 26…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117401",
    "titulo": "La experiencia española en desalación y reutilización llega a la gestión internacional del agua agrícola",
    "fecha": "2026-10-21T16:39:15+00:00",
@@ -71,14 +79,6 @@
    "enlace": "https://www.aenverde.es/union-en-almeria-para-garantizar-el-riego-en-la-vega-del-andarax/?utm_source=rss&utm_medium=rss&utm_campaign=union-en-almeria-para-garantizar-el-riego-en-la-vega-del-andarax",
    "imagen": "imagenes/117238.jpg",
    "descripcion": "ASEMPAL, la Cámara de Comercio de Almería, COEXPHAL y la Universidad de Almería han celebrado una reunión de trabajo en la sede de la entidad cameral junto a representantes de comunidades de regantes, agricultores, entidades empresariales, expertos y miembros de la sociedad civil, para analizar la situación hídrica…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117360",
-   "titulo": "ALDI comprará cerca de 12.000 toneladas de frutas y verduras de origen nacional este otoño",
-   "fecha": "2026-10-21T09:26:04+00:00",
-   "enlace": "https://www.aenverde.es/aldi-comprara-este-otono-cerca-de-12-000-toneladas-de-frutas-y-hortalizas-nacionales/?utm_source=rss&utm_medium=rss&utm_campaign=aldi-comprara-este-otono-cerca-de-12-000-toneladas-de-frutas-y-hortalizas-nacionales",
-   "imagen": "imagenes/117360.jpg",
-   "descripcion": "ALDI mantiene un firme compromiso con el producto fresco de proximidad y el campo español de cara a la campaña de otoño. Desde el 23 de septiembre y hasta el 21 de diciembre, la compañía prevé adquirir unas 11.950 toneladas de frutas y verduras de origen nacional…"
   }
  ]
 }
