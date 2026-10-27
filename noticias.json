@@ -1,11 +1,27 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117522",
+   "titulo": "Jóvenes agricultores y agroinfluencers se citarán en Expo AgriTech a debatir el futuro del agro",
+   "fecha": "2026-10-27T11:57:47+00:00",
+   "enlace": "https://www.aenverde.es/jovenes-agricultores-y-agroinfluencers-en-expo-agritech/?utm_source=rss&utm_medium=rss&utm_campaign=jovenes-agricultores-y-agroinfluencers-en-expo-agritech",
+   "imagen": "imagenes/117522.jpg",
+   "descripcion": "La falta de relevo generacional continúa siendo uno de los grandes desafíos del sector agrícola español, ya que la edad media de los agricultores es de 62 años, lo que dificulta la supervivencia de muchas explotaciones agrarias. A este reto se suma la necesidad de acercar la…"
+  },
+  {
+   "id": "https://www.aenverde.es/?p=117523",
+   "titulo": "Manzanares celebra el Día de la Calabaza con una caravana de tractores",
+   "fecha": "2026-10-27T11:56:19+00:00",
+   "enlace": "https://www.aenverde.es/manzanares-celebra-el-dia-de-la-calabaza-con-una-caravana-de-tractores/?utm_source=rss&utm_medium=rss&utm_campaign=manzanares-celebra-el-dia-de-la-calabaza-con-una-caravana-de-tractores",
+   "imagen": "imagenes/117523.jpg",
+   "descripcion": "En La Mancha, la calabaza es mucho más que una hortaliza, es un cultivo que genera actividad económica, sostiene el trabajo de los productores y contribuye a fijar población en el medio rural. Para reivindicar su importancia y acercarla a la ciudadanía, Manzanares ha acogido la primera…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117511",
    "titulo": "KeepCool recibe el reconocimiento en los Premios Madrid Impacta 2026",
    "fecha": "2026-10-27T11:37:00+00:00",
    "enlace": "https://www.aenverde.es/keepcool-recibe-el-reconocimiento-en-los-premios-madrid-impacta-2026/?utm_source=rss&utm_medium=rss&utm_campaign=keepcool-recibe-el-reconocimiento-en-los-premios-madrid-impacta-2026",
-   "imagen": "",
+   "imagen": "imagenes/117511.jpg",
    "descripcion": "Sanair Global Tech, con su proyecto KeepCool, ha recibido el accésit en los Premios Madrid Impacta 2026 del Ayuntamiento de Madrid. La distinción, dotada con 2.500 euros, se anunció el 26 de octubre. KeepCool desarrolla tecnología orientada a prolongar la vida útil de alimentos frescos y refrigerados,…"
   },
   {
@@ -63,22 +79,6 @@
    "enlace": "https://www.aenverde.es/el-banco-mundial-de-semillas-de-svalbard-destinara-el-premio-princesa-de-asturias-a-proteger-colecciones-de-semillas-vulnerables/?utm_source=rss&utm_medium=rss&utm_campaign=el-banco-mundial-de-semillas-de-svalbard-destinara-el-premio-princesa-de-asturias-a-proteger-colecciones-de-semillas-vulnerables",
    "imagen": "imagenes/117476.jpg",
    "descripcion": "El Banco Mundial de Semillas de Svalbard, reconocido este año con el Premio Princesa de Asturias de Cooperación Internacional 2026, destinará íntegramente la dotación económica del galardón, 50.000 euros, a reforzar la protección de colecciones de semillas consideradas vulnerables en distintos bancos de germoplasma del mundo. La…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117470",
-   "titulo": "El 34º Encuentro Estatal de Mujeres del Medio Rural visibiliza el liderazgo femenino",
-   "fecha": "2026-10-26T11:05:39+00:00",
-   "enlace": "https://www.aenverde.es/encuentro-estatal-de-mujeres-del-medio-rural-en-el-ejido/?utm_source=rss&utm_medium=rss&utm_campaign=encuentro-estatal-de-mujeres-del-medio-rural-en-el-ejido",
-   "imagen": "imagenes/117470.jpg",
-   "descripcion": "El XXXIV Encuentro Estatal de Mujeres del Medio Rural, organizado por la Confederación de Mujeres del Mundo Rural (CERES) los días 21 y 22 de octubre, con el lema ‘Producimos. Decidimos. Y punto’, ha reunido a representantes institucionales, profesionales del sector y mujeres del medio rural para…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117467",
-   "titulo": "ANOVE reivindica la innovación como motor de una alimentación más saludable y sostenible",
-   "fecha": "2026-10-26T10:44:29+00:00",
-   "enlace": "https://www.aenverde.es/anove-celebra-manana-en-valencia-la-entrega-de-sus-premios-a-la-innovacion/?utm_source=rss&utm_medium=rss&utm_campaign=anove-celebra-manana-en-valencia-la-entrega-de-sus-premios-a-la-innovacion",
-   "imagen": "imagenes/117467.jpg",
-   "descripcion": "La Asociación Nacional de Obtentores Vegetales (ANOVE) celebrará mañana la segunda edición de los Premios ANOVE a la Innovación, una iniciativa bienal que busca reconocer la labor de personas, entidades, proyectos y trayectorias que contribuyen al avance del sector agrícola desde ámbitos como la innovación, la investigación,…"
   }
  ]
 }
