@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117618",
+   "titulo": "Curso de aplicador de productos fitosanitarios, nivel cualificado",
+   "fecha": "2026-10-28T13:11:20+00:00",
+   "enlace": "https://www.aenverde.es/curso-de-aplicador-de-productos-fitosanitarios-nivel-cualificado-3/?utm_source=rss&utm_medium=rss&utm_campaign=curso-de-aplicador-de-productos-fitosanitarios-nivel-cualificado-3",
+   "imagen": "",
+   "descripcion": "El Departamento de Formación de COEXPHAL ha convocado un curso de aplicador de productos fitosanitarios, nivel cualificado, con carácter presencial, del 12 de noviembre al 2 de diciembre de 2026, en horario de 18:00 a 22:00 horas. Tiene una duración de 60 horas y está dirigido a…"
+  },
+  {
+   "id": "https://www.aenverde.es/?p=117623",
+   "titulo": "Un estudio descubre cómo la planta hospedadora altera el microbioma de los pulgones y abre nuevas vías para el control biológico",
+   "fecha": "2026-10-28T13:06:39+00:00",
+   "enlace": "https://www.aenverde.es/un-estudio-descubre-como-la-planta-hospedadora-altera-el-microbioma-de-los-pulgones-control-biologico-cebas-csic/?utm_source=rss&utm_medium=rss&utm_campaign=un-estudio-descubre-como-la-planta-hospedadora-altera-el-microbioma-de-los-pulgones-control-biologico-cebas-csic",
+   "imagen": "imagenes/117623.jpg",
+   "descripcion": "El artículo ‘Host plant switching and viral infections reshape the microbiome of the aphid vector Aphis gossypii’, fue publicado en la revista científica Phytobiomes Journal, y en él se analiza cómo la infección por virus y el cambio de planta hospedadora en cultivos de cucurbitáceas pueden modificar…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117606",
    "titulo": "Curso online sobre etiquetado en el sector agroalimentario, frutas y hortalizas",
    "fecha": "2026-10-28T12:13:54+00:00",
@@ -63,22 +79,6 @@
    "enlace": "https://www.aenverde.es/la-universidad-de-alicante-convierte-la-posidonia-en-un-sustrato-que-mejora-el-sabor-del-tomate/?utm_source=rss&utm_medium=rss&utm_campaign=la-universidad-de-alicante-convierte-la-posidonia-en-un-sustrato-que-mejora-el-sabor-del-tomate",
    "imagen": "imagenes/117569.jpg",
    "descripcion": "El grupo de investigación en Química Agrícola de la Universidad de Alicante (UA) ha desarrollado un sencillo y rápido procedimiento para obtener un sustrato sostenible a partir de restos de Posidonia oceanica, una planta marina que se acumula en las playas mediterráneas y acaba retirándose a vertederos…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117564",
-   "titulo": "La startup alemana Greenda elige España para desarrollar tecnología de predicción de plagas",
-   "fecha": "2026-10-27T16:06:35+00:00",
-   "enlace": "https://www.aenverde.es/startup-alemana-elige-espana-para-desarrollar-su-tecnologia-de-prediccion-de-plagas/?utm_source=rss&utm_medium=rss&utm_campaign=startup-alemana-elige-espana-para-desarrollar-su-tecnologia-de-prediccion-de-plagas",
-   "imagen": "imagenes/117564.jpg",
-   "descripcion": "La startup alemana Greenda ha elegido España como mercado estratégico para seguir desarrollando su tecnología de protección de cultivos y gestión de plagas. Fundada en Múnich en 2024, la startup tiene como objetivo poner la inteligencia artificial al servicio de la agricultura sin sustituir el conocimiento experto…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117558",
-   "titulo": "Valencia reunirá a referentes internacionales de la biotecnología alimentaria en FEBIO 2026",
-   "fecha": "2026-10-27T15:23:18+00:00",
-   "enlace": "https://www.aenverde.es/valencia-reunira-a-referentes-internacionales-de-la-biotecnologia-alimentaria-en-febio-2026/?utm_source=rss&utm_medium=rss&utm_campaign=valencia-reunira-a-referentes-internacionales-de-la-biotecnologia-alimentaria-en-febio-2026",
-   "imagen": "imagenes/117558.jpg",
-   "descripcion": "A cuatro semanas de su celebración, FEBIO – Future Eats Biotech Valencia ha presentado el programa completo de su primera edición, una cita que convertirá a Valencia en el punto de encuentro de la biotecnología alimentaria europea los próximos 24 y 25 de noviembre. El congreso reunirá…"
   }
  ]
 }
