@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117680",
+   "titulo": "El comercio agroalimentario de la UE se mantiene estable hasta agosto de 2026",
+   "fecha": "2026-10-29T11:51:11+00:00",
+   "enlace": "https://www.aenverde.es/el-comercio-agroalimentario-de-la-ue-se-mantiene-estable/?utm_source=rss&utm_medium=rss&utm_campaign=el-comercio-agroalimentario-de-la-ue-se-mantiene-estable",
+   "imagen": "imagenes/117680.jpg",
+   "descripcion": "El sector agroalimentario de la UE incrementó su balanza comercial positiva en los primeros ocho meses de 2026. Según el informe Seguimiento del sector agroalimentario de la UE, las exportaciones agroalimentarias de la UE alcanzaron los 157.700 millones de euros entre enero y agosto de 2026, una…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117668",
    "titulo": "La circularidad, la inteligencia artificial y el desarrollo inmologístico en la feria del empaquetado",
    "fecha": "2026-10-29T09:53:31+00:00",
@@ -71,14 +79,6 @@
    "enlace": "https://www.aenverde.es/curso-online-sobre-etiquetado-en-el-sector-agroalimentario-frutas-y-hortalizas-2/?utm_source=rss&utm_medium=rss&utm_campaign=curso-online-sobre-etiquetado-en-el-sector-agroalimentario-frutas-y-hortalizas-2",
    "imagen": "imagenes/117606.png",
    "descripcion": "En el sector agroalimentario, una etiqueta no es solo un papel: es información, confianza y cumplimiento legal. Por eso, el Departamento de Formación de COEXPHAL ha convocado el curso online: Etiquetado en el sector agroalimentario, frutas y hortalizas, que está diseñado para ayudar a entender qué menciones…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117597",
-   "titulo": "El IAS-CSIC reta a los alumnos de ESO de toda España con un «kahoot» sobre agricultura",
-   "fecha": "2026-10-28T11:59:29+00:00",
-   "enlace": "https://www.aenverde.es/ias-csic-organiza-un-kahoot-sobre-agricultura/?utm_source=rss&utm_medium=rss&utm_campaign=ias-csic-organiza-un-kahoot-sobre-agricultura",
-   "imagen": "imagenes/117597.jpg",
-   "descripcion": "El Instituto de Agricultura Sostenible (IAS) de Córdoba se suma un año más a la Semana de la Ciencia y la Tecnología del Consejo Superior de Investigaciones Científicas (CSIC), que celebra del 16 al 29 de noviembre su XXVI edición. Como en años anteriores, el IAS-CSIC convoca…"
   }
  ]
 }
