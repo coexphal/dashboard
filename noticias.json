@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117702",
+   "titulo": "La UAB desarrolla un sistema para producir urea directamente en el campo con energía renovable",
+   "fecha": "2026-10-30T08:19:42+00:00",
+   "enlace": "https://www.aenverde.es/la-uab-desarrolla-un-sistema-para-producir-urea-directamente-en-el-campo-con-energia-renovable/?utm_source=rss&utm_medium=rss&utm_campaign=la-uab-desarrolla-un-sistema-para-producir-urea-directamente-en-el-campo-con-energia-renovable",
+   "imagen": "imagenes/117702.jpg",
+   "descripcion": "Las tecnologías desarrolladas podrían permitir la producción local y a demanda de fertilizantes, en el propio campo de cultivo y a partir de los recursos disponibles en cada entorno agrícola. El sistema, validado en fase piloto, es resultado del proyecto europeo de investigación CONFETI, coordinado por la…"
+  },
+  {
+   "id": "https://www.aenverde.es/?p=117701",
+   "titulo": "Comercio analiza las relaciones con Estados Unidos y China y los acuerdos de la UE con terceros países",
+   "fecha": "2026-10-30T08:03:26+00:00",
+   "enlace": "https://www.aenverde.es/comercio-analiza-los-acuerdos-comerciales-de-la-ue-con-terceros-paises/?utm_source=rss&utm_medium=rss&utm_campaign=comercio-analiza-los-acuerdos-comerciales-de-la-ue-con-terceros-paises",
+   "imagen": "imagenes/117701.jpg",
+   "descripcion": "La Secretaría de Estado de Comercio ha convocado, esta semana, la primera reunión del Grupo de Trabajo de Comercio Internacional-Productos Agroalimentarios, en la que se analizó la situación del comercio internacional en el actual contexto de tensiones comerciales, con especial atención a Estados Unidos y China, así…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117693",
    "titulo": "La dificultad para encontrar transporte y el incremento de costes, principales riesgos para la cadena de suministro",
    "fecha": "2026-10-29T13:26:01+00:00",
@@ -63,22 +79,6 @@
    "enlace": "https://www.aenverde.es/estado-fenologico-de-los-cultivos-de-invernadero-a-finales-de-octubre/?utm_source=rss&utm_medium=rss&utm_campaign=estado-fenologico-de-los-cultivos-de-invernadero-a-finales-de-octubre",
    "imagen": "imagenes/117624.jpg",
    "descripcion": "Información Agraria y Pesquera de la Junta de Andalucía ha publicado su último informe sobre el estado fenológico de los cultivos de invernadero en la región durante la semana del 19 al 25 de octubre de 2026. Almería En Almería, en la zona de Campo de Níjar…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117648",
-   "titulo": "Eurosol acerca a los universitarios alicantinos las nuevas oportunidades del sector agrícola",
-   "fecha": "2026-10-28T17:16:11+00:00",
-   "enlace": "https://www.aenverde.es/eurosol-acerca-a-los-universitarios-alicantinos-las-nuevas-oportunidades-del-sector-agricola/?utm_source=rss&utm_medium=rss&utm_campaign=eurosol-acerca-a-los-universitarios-alicantinos-las-nuevas-oportunidades-del-sector-agricola",
-   "imagen": "imagenes/117648.jpg",
-   "descripcion": "Eurosol SAT, junto a ASAJA Almería, ha celebrado la jornada académica ‘Tu futuro está en la agricultura’, un encuentro dirigido al alumnado de Química y Biología de la Universidad de Alicante (UA) con el objetivo de acercar a los jóvenes a la realidad del sector agrícola y…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117639",
-   "titulo": "El absentismo laboral cuesta 20.000 millones más que toda la educación pública en España",
-   "fecha": "2026-10-28T16:32:44+00:00",
-   "enlace": "https://www.aenverde.es/el-absentismo-laboral-cuesta-20-000-millones-mas-que-toda-la-educacion-publica-en-espana/?utm_source=rss&utm_medium=rss&utm_campaign=el-absentismo-laboral-cuesta-20-000-millones-mas-que-toda-la-educacion-publica-en-espana",
-   "imagen": "imagenes/117639.jpg",
-   "descripcion": "El absentismo laboral ha dejado de ser un problema meramente coyuntural para convertirse en un problema de país. Así lo confirman los principales indicadores que cifran el impacto macroeconómico de este problema en 92.000 millones de euros, la segunda partida de gasto público tras las pensiones y…"
   }
  ]
 }
