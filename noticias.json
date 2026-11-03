@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117800",
+   "titulo": "España afronta el acuerdo UE-México con un déficit hortofrutícola de 35,5 millones de euros",
+   "fecha": "2026-11-03T13:28:37+00:00",
+   "enlace": "https://www.aenverde.es/espana-afronta-el-acuerdo-ue-mexico-con-un-deficit-hortofruticola-de-355-millones-de-euros/?utm_source=rss&utm_medium=rss&utm_campaign=espana-afronta-el-acuerdo-ue-mexico-con-un-deficit-hortofruticola-de-355-millones-de-euros",
+   "imagen": "imagenes/117800.jpg",
+   "descripcion": "La UE y México firmaron el Acuerdo de Asociación el 22 de mayo de este año que consta de dos partes: un Acuerdo Global Modernizado (AGM), y el Acuerdo Comercial Interino (ACI). El Acuerdo Comercial Interino abarca las disposiciones comerciales, que son competencia exclusiva de la Unión…"
+  },
+  {
+   "id": "https://www.aenverde.es/?p=117793",
+   "titulo": "Felipe Medina: “El precio importa, pero no es el único factor de nuestras decisiones de compra”",
+   "fecha": "2026-11-03T13:00:52+00:00",
+   "enlace": "https://www.aenverde.es/felipe-medina-el-precio-importa-pero-no-es-el-unico-factor-de-nuestras-decisiones-de-compra/?utm_source=rss&utm_medium=rss&utm_campaign=felipe-medina-el-precio-importa-pero-no-es-el-unico-factor-de-nuestras-decisiones-de-compra",
+   "imagen": "imagenes/117793.jpg",
+   "descripcion": "En la edición impresa de Aenverde correspondiente al mes de noviembre entrevistamos a Felipe Medina, Secretario General Técnico de la Asociación Española de Distribuidores, Autoservicios y Supermercados, ASEDAS, que analiza el presente y los retos de la distribución alimentaria en España, desde la apuesta de los supermercados…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117784",
    "titulo": "Precios inestables y fuertes caídas en berenjena, calabacín y pepino",
    "fecha": "2026-11-03T12:19:26+00:00",
@@ -63,22 +79,6 @@
    "enlace": "https://www.aenverde.es/el-bioinsecticida-mycotal-fulmina-a-la-mosca-blanca-incluso-con-frio/?utm_source=rss&utm_medium=rss&utm_campaign=el-bioinsecticida-mycotal-fulmina-a-la-mosca-blanca-incluso-con-frio",
    "imagen": "imagenes/117741.jpg",
    "descripcion": "El frío no detiene la actividad de Mycotal. Este bioinsecticida natural de Koppert mantiene su eficacia contra mosca blanca incluso a temperaturas de 8°C. Esta es una de sus principales diferencias frente a otros productos comerciales basados en hongos entomopatógenos. La clave está en el hongo beneficioso…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117726",
-   "titulo": "El sector agroalimentario, entre los que menos adoptan la IA en Europa",
-   "fecha": "2026-10-30T11:26:13+00:00",
-   "enlace": "https://www.aenverde.es/el-sector-agroalimentario-adopta-mas-lentamente-la-inteligencia-artificial/?utm_source=rss&utm_medium=rss&utm_campaign=el-sector-agroalimentario-adopta-mas-lentamente-la-inteligencia-artificial",
-   "imagen": "imagenes/117726.jpg",
-   "descripcion": "La inteligencia artificial (IA) está ganando terreno con rapidez en los sectores estratégicos de la Unión Europea, pero el agroalimentario continúa situándose entre los más rezagados en su incorporación. Así lo pone de manifiesto un análisis del Centro Común de Investigación (JRC) de la Comisión Europea, que…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117727",
-   "titulo": "COEXPHAL analiza las claves para reducir la accidentalidad en el sector hortofrutícola",
-   "fecha": "2026-10-30T11:26:07+00:00",
-   "enlace": "https://www.aenverde.es/coexphal-analiza-las-claves-para-reducir-la-accidentalidad-en-el-sector-hortofruticola/?utm_source=rss&utm_medium=rss&utm_campaign=coexphal-analiza-las-claves-para-reducir-la-accidentalidad-en-el-sector-hortofruticola",
-   "imagen": "imagenes/117727.jpg",
-   "descripcion": "El Servicio de Prevención Mancomunado de COEXPHAL ha celebrado en el CIT COEX, en La Mojonera, una jornada sobre Prevención de Riesgos Laborales dirigida a las empresas del sector hortofrutícola. El encuentro ha puesto sobre la mesa las principales novedades en materia de seguridad y salud laboral.…"
   }
  ]
 }
