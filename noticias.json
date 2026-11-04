@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=117850",
+   "titulo": "Expo AgriTech 2026 reclama una PAC con presupuesto suficiente para afrontar el aumento de costes",
+   "fecha": "2026-11-04T16:38:57+00:00",
+   "enlace": "https://www.aenverde.es/expo-agritech-2026-reclama-una-pac-con-presupuesto-suficiente-para-afrontar-el-aumento-de-costes/?utm_source=rss&utm_medium=rss&utm_campaign=expo-agritech-2026-reclama-una-pac-con-presupuesto-suficiente-para-afrontar-el-aumento-de-costes",
+   "imagen": "imagenes/117850.jpg",
+   "descripcion": "La tercera edición de Expo AgriTech 2026 ha arrancado hoy en Málaga, convirtiendo a la capital de la Costa del Sol en punto de encuentro de la innovación tecnológica para el sector agrícola. En un contexto marcado por la incertidumbre geopolítica, las tensiones comerciales y el encarecimiento…"
+  },
+  {
+   "id": "https://www.aenverde.es/?p=117843",
+   "titulo": "Cohorsan crece un 14 % y refuerza su apuesta por la innovación y la especialización",
+   "fecha": "2026-11-04T16:20:48+00:00",
+   "enlace": "https://www.aenverde.es/cohorsan-refuerza-su-capacidad-productiva-con-nuevas-inversiones-en-tecnologia-robotizacion-y-especializacion/?utm_source=rss&utm_medium=rss&utm_campaign=cohorsan-refuerza-su-capacidad-productiva-con-nuevas-inversiones-en-tecnologia-robotizacion-y-especializacion",
+   "imagen": "imagenes/117843.jpg",
+   "descripcion": "La alcaldesa de El Ejido, Julia Ibáñez, el concejal de Agricultura, Manuel Martínez, y el concejal de Urbanismo, Alberto González, han visitado las instalaciones de la cooperativa Cohorsan, ubicada en San Agustín, donde han conocido de primera mano su capacidad de crecimiento y las últimas inversiones realizadas.…"
+  },
+  {
+   "id": "https://www.aenverde.es/?p=117838",
+   "titulo": "Luis Planas considera el seguro agrario una garantía frente al cambio climático",
+   "fecha": "2026-11-04T16:07:20+00:00",
+   "enlace": "https://www.aenverde.es/luis-planas-considera-el-seguro-agrario-una-garantia-frente-al-cambio-climatico/?utm_source=rss&utm_medium=rss&utm_campaign=luis-planas-considera-el-seguro-agrario-una-garantia-frente-al-cambio-climatico",
+   "imagen": "imagenes/117838.jpg",
+   "descripcion": "El ministro Luis Planas ha destacado el papel del seguro agrario como una herramienta «fundamental e insustituible» para sostener las rentas de agricultores, ganaderos y acuicultores, garantizar la seguridad alimentaria y asegurar el futuro de las explotaciones. Así lo ha señalado durante su visita a la sede…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117830",
    "titulo": "La II Tertulia BusinessAGRO de Frutales debatirá en Huesca cómo responder al nuevo consumidor",
    "fecha": "2026-11-04T13:30:21+00:00",
@@ -55,30 +79,6 @@
    "enlace": "https://www.aenverde.es/felipe-medina-el-precio-importa-pero-no-es-el-unico-factor-de-nuestras-decisiones-de-compra/?utm_source=rss&utm_medium=rss&utm_campaign=felipe-medina-el-precio-importa-pero-no-es-el-unico-factor-de-nuestras-decisiones-de-compra",
    "imagen": "imagenes/117793.jpg",
    "descripcion": "En la edición impresa de Aenverde correspondiente al mes de noviembre entrevistamos a Felipe Medina, Secretario General Técnico de la Asociación Española de Distribuidores, Autoservicios y Supermercados, ASEDAS, que analiza el presente y los retos de la distribución alimentaria en España, desde la apuesta de los supermercados…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117784",
-   "titulo": "Precios inestables y fuertes caídas en berenjena, calabacín y pepino",
-   "fecha": "2026-11-03T12:19:26+00:00",
-   "enlace": "https://www.aenverde.es/precios-inestables-y-fuertes-caidas-de-berenjena-calabacin-y-pepino/?utm_source=rss&utm_medium=rss&utm_campaign=precios-inestables-y-fuertes-caidas-de-berenjena-calabacin-y-pepino",
-   "imagen": "imagenes/117784.jpg",
-   "descripcion": "El inicio de la campaña hortícola 2026/2027 en Almería para la berenjena, el calabacín y el pepino presenta un inicio más tardío debido a las altas temperaturas. Las primeras cotizaciones se muestran estables pero condicionadas por la limitación de la oferta temprana y la presión de los…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117778",
-   "titulo": "Intercitrus logra una cofinanciación europea del 70 % para promocionar naranjas en Francia y Alemania",
-   "fecha": "2026-11-03T11:47:31+00:00",
-   "enlace": "https://www.aenverde.es/intercitrus-logra-una-cofinanciacion-europea-del-70-para-promocionar-naranjas-en-francia-y-alemania/?utm_source=rss&utm_medium=rss&utm_campaign=intercitrus-logra-una-cofinanciacion-europea-del-70-para-promocionar-naranjas-en-francia-y-alemania",
-   "imagen": "imagenes/117778.jpg",
-   "descripcion": "El Ministerio de Agricultura ha confirmado a Intercitrus, Interprofesional Citrícola Española, que la Comisión Europea (CE) ha seleccionado la propuesta presentada por la interprofesional en el marco del programa de ‘Promoción de productos agrícolas para 2026′ de la UE. La resolución satisfactoria de este concurso permitirá a…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117772",
-   "titulo": "Curso online: Protocolo IFS Broker versión 3.2",
-   "fecha": "2026-11-03T11:16:17+00:00",
-   "enlace": "https://www.aenverde.es/curso-online-protocolo-ifs-broker-version-3-2-7/?utm_source=rss&utm_medium=rss&utm_campaign=curso-online-protocolo-ifs-broker-version-3-2-7",
-   "imagen": "imagenes/117772.jpg",
-   "descripcion": "Las empresas que actúan como intermediarias en la cadena alimentaria tienen que asegurar la trazabilidad y garantizar la seguridad y calidad de los productos que comercializan. Por eso el Departamento de Formación de COEXPHAL ha convocado un curso online sobre protocolo IFS Broker Versión 3.2, contenidos y…"
   }
  ]
 }
