@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=118009",
+   "titulo": "Nanopartículas que reducen un 50 % la transmisión de virus agrícolas por los pulgones",
+   "fecha": "2026-11-06T12:15:19+00:00",
+   "enlace": "https://www.aenverde.es/manoparticulas-que-frenan-la-expansion-virus-a-traves-de-los-pulgones/?utm_source=rss&utm_medium=rss&utm_campaign=manoparticulas-que-frenan-la-expansion-virus-a-traves-de-los-pulgones",
+   "imagen": "imagenes/118009.jpg",
+   "descripcion": "Un equipo del Instituto de Ciencias Agrarias del CSIC (ICA) y del Centro de Biotecnología y Genómica de Plantas (CBGP-CSIC-UPM) ha logrado dificultar que varios virus agrícolas se propaguen entre plantas a través de los pulgones gracias a un señuelo molecular que bloquea el mecanismo con el…"
+  },
+  {
+   "id": "https://www.aenverde.es/?p=118008",
+   "titulo": "Semillas Fitó presenta su gama de sandías para la nueva campaña",
+   "fecha": "2026-11-06T12:02:47+00:00",
+   "enlace": "https://www.aenverde.es/semillas-fito-presenta-su-gama-de-sandias-para-la-nueva-campana/?utm_source=rss&utm_medium=rss&utm_campaign=semillas-fito-presenta-su-gama-de-sandias-para-la-nueva-campana",
+   "imagen": "imagenes/118008.jpg",
+   "descripcion": "Semillas Fitó afronta la nueva campaña de primavera con una gama de sandías desarrollada para responder a las necesidades de los agricultores. Con la elección varietal como una de las decisiones más importantes para la rentabilidad de las explotaciones, la compañía pone el foco en combinar productividad,…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117999",
    "titulo": "T. Parvispinus, el enemigo que obliga a reforzar el control biológico",
    "fecha": "2026-11-06T11:25:35+00:00",
@@ -63,22 +79,6 @@
    "enlace": "https://www.aenverde.es/productos-frescos-los-mas-comparados-por-los-consumidores-en-los-supermercados/?utm_source=rss&utm_medium=rss&utm_campaign=productos-frescos-los-mas-comparados-por-los-consumidores-en-los-supermercados",
    "imagen": "imagenes/117932.jpg",
    "descripcion": "En un contexto en el que el 95% de los consumidores en España percibe que el coste de la vida ha aumentado durante los últimos 12 meses, se han cambiado los hábitos de compra con el fin de ahorrar sin sacrificar la calidad, especialmente a la hora…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117936",
-   "titulo": "La DOP Kaki Ribera del Xúquer destina 2,5 millones a promocionar Persimon®",
-   "fecha": "2026-11-05T16:56:05+00:00",
-   "enlace": "https://www.aenverde.es/la-dop-kaki-ribera-del-xuquer-destina-25-millones-a-promocionar-persimon/?utm_source=rss&utm_medium=rss&utm_campaign=la-dop-kaki-ribera-del-xuquer-destina-25-millones-a-promocionar-persimon",
-   "imagen": "imagenes/117936.jpg",
-   "descripcion": "La Denominación de Origen Protegida Kaki Ribera del Xúquer arranca la campaña de recogida en un escenario marcado por mejores perspectivas en cuanto a calibre y calidad, pero con una menor disponibilidad de fruta tras los recientes episodios de pedrisco y lluvias torrenciales. El cultivo del kaki en España se concentra mayoritariamente en el área…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117926",
-   "titulo": "Los agricultores y ganaderos tendrán una reducción del 10% en el IRPF de 2027",
-   "fecha": "2026-11-05T16:32:09+00:00",
-   "enlace": "https://www.aenverde.es/los-agricultores-y-ganaderos-tendran-una-reduccion-del-10-en-el-irpf-de-2027/?utm_source=rss&utm_medium=rss&utm_campaign=los-agricultores-y-ganaderos-tendran-una-reduccion-del-10-en-el-irpf-de-2027",
-   "imagen": "imagenes/117926.jpg",
-   "descripcion": "El Ministerio de Hacienda ha publicado hoy en el Boletín Oficial del Estado, BOE, la orden que desarrollan el método de estimación objetiva del Impuesto sobre la Renta de las Personas Físicas (IRPF) para 2027 y el régimen especial simplificado del Impuesto sobre el Valor Añadido (IVA), que…"
   }
  ]
 }
