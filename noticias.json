@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=118045",
+   "titulo": "Andalucía concentra el 21,5% de las exportaciones agroalimentarias de España",
+   "fecha": "2026-11-09T08:22:13+00:00",
+   "enlace": "https://www.aenverde.es/andalucia-concentra-el-215-de-las-exportaciones-agroalimentarias-de-espana/?utm_source=rss&utm_medium=rss&utm_campaign=andalucia-concentra-el-215-de-las-exportaciones-agroalimentarias-de-espana",
+   "imagen": "imagenes/118045.jpg",
+   "descripcion": "Andalucía es la única comunidad autónoma española con exportaciones agroalimentarias valoradas en más de 11.000 millones de euros entre enero y agosto de 2026. Concretamente, los alimentos y bebidas que salieron de esta región hacia otros países han rozado los 11.013 millones de euros en ocho meses…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=117891",
    "titulo": "Rijk Zwaan muestra en Níjar sus nuevos cherry resistentes al rugoso",
    "fecha": "2026-11-06T13:38:30+00:00",
@@ -36,7 +44,7 @@
    "id": "https://www.aenverde.es/?p=118009",
    "titulo": "Nanopartículas que reducen un 50 % la transmisión de virus agrícolas por los pulgones",
    "fecha": "2026-11-06T12:15:19+00:00",
-   "enlace": "https://www.aenverde.es/manoparticulas-que-frenan-la-expansion-virus-a-traves-de-los-pulgones/?utm_source=rss&utm_medium=rss&utm_campaign=manoparticulas-que-frenan-la-expansion-virus-a-traves-de-los-pulgones",
+   "enlace": "https://www.aenverde.es/nanoparticulas-que-frenan-la-expansion-virus-a-traves-de-los-pulgones/?utm_source=rss&utm_medium=rss&utm_campaign=nanoparticulas-que-frenan-la-expansion-virus-a-traves-de-los-pulgones",
    "imagen": "imagenes/118009.jpg",
    "descripcion": "Un equipo del Instituto de Ciencias Agrarias del CSIC (ICA) y del Centro de Biotecnología y Genómica de Plantas (CBGP-CSIC-UPM) ha logrado dificultar que varios virus agrícolas se propaguen entre plantas a través de los pulgones gracias a un señuelo molecular que bloquea el mecanismo con el…"
   },
@@ -71,14 +79,6 @@
    "enlace": "https://www.aenverde.es/ojo-los-ciberdelincuentes-apuntan-a-los-frigorificos-de-los-supermercados/?utm_source=rss&utm_medium=rss&utm_campaign=ojo-los-ciberdelincuentes-apuntan-a-los-frigorificos-de-los-supermercados",
    "imagen": "imagenes/117975.jpg",
    "descripcion": "A finales de octubre y principios de noviembre se ha producido una ola de ciberataques a supermercados de 11 países europeos. Varios establecimientos, hasta 700 en Francia, y después en Bélgica, Estonia, Finlandia, Irlanda, Italia, Luxemburgo, los Países Bajos, Portugal, Alemania y Suecia han denunciado un aumento…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=117976",
-   "titulo": "La cúpula mundial de IFCO visita COEXPHAL para conocer las necesidades del sector almeriense",
-   "fecha": "2026-11-06T09:00:28+00:00",
-   "enlace": "https://www.aenverde.es/la-cupula-mundial-de-ifco-visita-coexphal-para-conocer-las-necesidades-del-sector-almeriense/?utm_source=rss&utm_medium=rss&utm_campaign=la-cupula-mundial-de-ifco-visita-coexphal-para-conocer-las-necesidades-del-sector-almeriense",
-   "imagen": "imagenes/117976.jpg",
-   "descripcion": "La Asociación de Organizaciones de Productores de Frutas y Hortalizas de Almería (COEXPHAL) ha recibido esta semana la visita de una amplia representación de la dirección internacional de IFCO, compañía líder mundial en soluciones de envases reutilizables para productos frescos, encabezada por su CEO, Mike Pooley. La…"
   }
  ]
 }
