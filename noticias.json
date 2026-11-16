@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=118289",
+   "titulo": "De la naturaleza al plato,  un viaje gastronómico con las frutas y hortalizas de El Ejido",
+   "fecha": "2026-11-16T08:18:01+00:00",
+   "enlace": "https://www.aenverde.es/las-frutas-y-hortalizas-protagonistas-del-viaje-gastronomico-de-17-establecimientos-en-el-ejido/?utm_source=rss&utm_medium=rss&utm_campaign=las-frutas-y-hortalizas-protagonistas-del-viaje-gastronomico-de-17-establecimientos-en-el-ejido",
+   "imagen": "imagenes/118289.jpg",
+   "descripcion": "El Ayuntamiento ha presentado la tercera edición del Viaje Gastronómico ‘De la Naturaleza al Plato’, una iniciativa que vuelve a unir la agricultura sostenible y la gastronomía local, poniendo en valor la calidad, diversidad y excelencia de las frutas y hortalizas que se producen en el municipio.…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=118256",
    "titulo": "Uno de cada tres españoles come verdura a diario",
    "fecha": "2026-11-13T13:56:39+00:00",
@@ -71,14 +79,6 @@
    "enlace": "https://www.aenverde.es/ibanez-exige-al-gobierno-autorizar-materias-activas-contra-el-parvispinus/?utm_source=rss&utm_medium=rss&utm_campaign=ibanez-exige-al-gobierno-autorizar-materias-activas-contra-el-parvispinus",
    "imagen": "imagenes/118210.jpg",
    "descripcion": "La alcaldesa, Julia Ibáñez, ha participado en la XX Jornada Agricultura Almeriense en el siglo XXI. Organizada por el diario La Voz de Almería, bajo el lema ‘El gran sector de las frutas, las hortalizas y los retos’, se ha celebrado esta mañana en el Teatro Municipal…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=118211",
-   "titulo": "Bogotá F1 de Sakata llega al mercado con más rendimiento y estabilidad al cultivo de pepino",
-   "fecha": "2026-11-12T16:14:18+00:00",
-   "enlace": "https://www.aenverde.es/bogota-f1-el-nuevo-pepino-de-sakata-seeds/?utm_source=rss&utm_medium=rss&utm_campaign=bogota-f1-el-nuevo-pepino-de-sakata-seeds",
-   "imagen": "imagenes/118211.jpg",
-   "descripcion": "Sakata ha presentado Bogotá, su nueva variedad de pepino holandés para siembras de otoño, desarrollada para cumplir con las demandas del agricultor de pepino: robustez, productividad y seguridad durante todo el ciclo. Gracias a su excelente adaptación tanto a las altas temperaturas de inicio de campaña como…"
   }
  ]
 }
