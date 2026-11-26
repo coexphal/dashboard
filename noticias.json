@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "id": "https://www.aenverde.es/?p=118652",
+   "titulo": "TROPS inaugura su nueva sede en Valencia",
+   "fecha": "2026-11-25T17:39:44+00:00",
+   "enlace": "https://www.aenverde.es/trops-inaugura-su-nueva-sede-en-valencia-2/?utm_source=rss&utm_medium=rss&utm_campaign=trops-inaugura-su-nueva-sede-en-valencia-2",
+   "imagen": "imagenes/118652.jpg",
+   "descripcion": "El pasado lunes, 23 de noviembre, TROPS ha inaugurado su nueva sede en la localidad de Palma de Gandía, ubicada en la comarca de La Safor, en Valencia. Se trata de un centro de recolección y atención al socio. Un proyecto que refuerza supresencia en la provincia y consolida su apuesta por el desarrollo agrícola…"
+  },
+  {
    "id": "https://www.aenverde.es/?p=118647",
    "titulo": "El sector agrario y el fotovoltaico presentan una iniciativa conjunta para impulsar la agrovoltaica",
    "fecha": "2026-11-25T17:24:11+00:00",
@@ -26,7 +34,7 @@
   },
   {
    "id": "https://www.aenverde.es/?p=118635",
-   "titulo": "La IA y el análisis predictiva serán las tecnologías de mayor impacto en cinco años",
+   "titulo": "La IA y el análisis predictivo serán las tecnologías de mayor impacto en cinco años",
    "fecha": "2026-11-25T11:33:03+00:00",
    "enlace": "https://www.aenverde.es/inteligencia-artificial-analisis-predictivos-agricultura-de-precision-agritech/?utm_source=rss&utm_medium=rss&utm_campaign=inteligencia-artificial-analisis-predictivos-agricultura-de-precision-agritech",
    "imagen": "imagenes/118635.jpg",
@@ -71,14 +79,6 @@
    "enlace": "https://www.aenverde.es/el-instituto-agroalimentario-de-empresa-constituye-su-consejo-asesor/?utm_source=rss&utm_medium=rss&utm_campaign=el-instituto-agroalimentario-de-empresa-constituye-su-consejo-asesor",
    "imagen": "imagenes/118606.jpg",
    "descripcion": "El Instituto Agroalimentario de Empresa, antes Escuela Alimentaria, ha presentado a su Consejo Asesor en su sede de Córdoba, con motivo de la primera reunión de este órgano. Su constitución acompaña la evolución de la entidad hacia una propuesta formativa más amplia, especializada y vinculada a las necesidades reales de las empresas y los profesionales…"
-  },
-  {
-   "id": "https://www.aenverde.es/?p=118599",
-   "titulo": "TROPS inaugura su nueva sede en Valencia",
-   "fecha": "2026-11-24T16:10:10+00:00",
-   "enlace": "https://www.aenverde.es/trops-inaugura-su-nueva-sede-en-valencia/?utm_source=rss&utm_medium=rss&utm_campaign=trops-inaugura-su-nueva-sede-en-valencia",
-   "imagen": "imagenes/118599.jpg",
-   "descripcion": "TROPS ha inaugurado una nueva sede en Palma de Gandía, en la comarca valenciana de La Safor. El centro, destinado a la recolección y atención al socio, refuerza la presencia de la cooperativa en la Comunidad Valenciana y su apuesta por el desarrollo agrícola sostenible. La apertura supone un nuevo paso en la expansión territorial…"
   }
  ]
 }
